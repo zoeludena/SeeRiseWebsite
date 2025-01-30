@@ -1,12 +1,5 @@
 .circle {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ddd; /* Optional: Adds a background color for visibility */
+    border: 2px solid red; /* Debugging border */
 }
 
 .circle img {
