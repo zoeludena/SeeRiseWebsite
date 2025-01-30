@@ -2,7 +2,8 @@ theme: minima
 title: SeeRise
 
 plugins:
-- jekyll-theme
+  - jekyll-theme
 
 header_pages:
+  - index.md
   - about.md
