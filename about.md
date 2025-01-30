@@ -9,7 +9,7 @@ permalink: /about/
 ## Zoe Ludena
 
 <div class="circle">
-    <img src="assets/images/zoe.jpg" alt="Zoe Image">
+    <img src="assets/team_pics/zoe.jpg" alt="Zoe Image">
 </div>
 
 <a href="https://zoeludena.github.io/" target="_blank">
@@ -21,11 +21,11 @@ Zoe Ludena is a senior data science major at the University of California, San D
 ## Ylesia Wu
 
 <div class="circle">
-    <img src="assets/images/ylesia.jpg" alt="Ylesia Image">
+    <img src="assets/team_pics/ylesia.jpg" alt="Ylesia Image">
 </div>
 
 ## Eric Pham
 
 <div class="circle">
-    <img src="assets/images/eric.png" alt="Eric Image">
+    <img src="assets/team_pics/eric.png" alt="Eric Image">
 </div>
