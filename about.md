@@ -21,11 +21,11 @@ Zoe Ludena is a senior data science major at the University of California, San D
 ## Ylesia Wu
 
 <div class="circle">
-    <img src="assets/team_pics/ylesia.jpg" alt="Ylesia Image">
+    <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/ylesia.jpg" alt="Ylesia Image">
 </div>
 
 ## Eric Pham
 
 <div class="circle">
-    <img src="assets/team_pics/eric.png" alt="Eric Image">
+    <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/eric.png" alt="Eric Image">
 </div>
