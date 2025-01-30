@@ -6,9 +6,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ddd; /* Optional: Adds a background color for visibility */
 }
+
 .circle img {
-    width: 100%;
-    height: 100%;
+    width: 150px; /* Match the container */
+    height: 150px;
     object-fit: cover;
+    border-radius: 50%; /* Ensures the image remains circular */
 }
