@@ -1,4 +1,7 @@
 theme: minima
+  include: 
+    - assets/css/styles.css
+  
 title: SeeRise
 
 plugins:
