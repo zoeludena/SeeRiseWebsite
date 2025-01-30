@@ -6,7 +6,7 @@ title: SeeRise
 # Visualizing Emulated Sea Level Rise on Coastal Regions
 
 <a href="https://github.com/zoeludena/SeeRise" target="_blank">
-    <button>Github</button>
+    <button>GitHub Page</button>
 </a>
 
 ## Introduction
@@ -19,4 +19,4 @@ To predict the future, we built upon our previous research paper (TODO), that us
 
 ## Results
 
-TODO.
+We see rise.
