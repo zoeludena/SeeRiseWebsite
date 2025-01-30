@@ -5,6 +5,10 @@ title: SeeRise
 
 # Visualizing Emulated Sea Level Rise on Coastal Regions
 
+<a href="https://github.com/zoeludena/SeeRise" target="_blank">
+    <button>Github</button>
+</a>
+
 ## Introduction
 
 Where will become the next Atlantis? It is no suprise that with climate change the sea levels are rising. We are curious as to how much they will rise and where. Low coastal areas are in danger with sea level rise.
