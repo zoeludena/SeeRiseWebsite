@@ -6,6 +6,6 @@ plugins:
 
 header_pages:
   - index.md
-  - about.md
+  - team.md
 
 author: Eric Pham, Ylesia Wu, & Zoe Ludena
