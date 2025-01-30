@@ -8,7 +8,9 @@ permalink: /about/
 
 ## Zoe Ludena
 
-<img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/zoe.jpg" alt="Zoe Image">
+<div class="circle">
+    <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/zoe.jpg" alt="Zoe Image">
+</div>
 
 <a href="https://zoeludena.github.io/" target="_blank">
     <button>Zoe's Website</button>
