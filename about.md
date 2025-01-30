@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Team
-permalink: /about/
+permalink: /team/
 ---
 
 # Team Members
