@@ -1,7 +1,9 @@
 ---
 layout: home
-title: SeeRise: Visualizing Emulated Sea Level Rise on Coastal Regions
+title: SeeRise
 ---
+
+### SeeRise: Visualizing Emulated Sea Level Rise on Coastal Regions
 
 ## Introduction
 
