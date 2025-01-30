@@ -1,11 +1,5 @@
-# Test
+# SeeRise
 
-Blah blah blah
+This is our website for our DSC 180 project. More to be added later.
 
-## Test Test
-
-Blah blah blah
-
-### Test Test Test
-
-Blah blah blah
+[Link](https://zoeludena.github.io/SeeRiseWebsite/)
