@@ -1,5 +1,8 @@
 theme: minima
 
+plugins:
+- jekyll-theme
+
 header_pages:
   - about.md
   - portfolio.md
