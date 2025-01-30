@@ -1,5 +1,11 @@
 .circle {
-    border: 2px solid red; /* Debugging border */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .circle img {
