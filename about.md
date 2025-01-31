@@ -4,8 +4,6 @@ title: The Team
 permalink: /about/
 ---
 
-# Team Members
-
 ## Zoe Ludena
 
 <div style="display: flex; align-items: center;">
