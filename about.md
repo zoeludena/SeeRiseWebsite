@@ -22,8 +22,6 @@ permalink: /about/
 
 ## Ylesia Wu
 
-<img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/ylesia.jpg" style="clip-path: circle(); width: 80%; width: 150px; height: 150px; object-fit: cover;">
-
 <div style="display: flex; align-items: center;">
     <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/ylesia.jpg" 
          style="clip-path: circle(); width: 150px; height: 150px; object-fit: cover; margin-right: 15px;">
@@ -36,8 +34,6 @@ permalink: /about/
 </div>
 
 ## Eric Pham
-
-<img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/eric.png" style="clip-path: circle(); width: 80%; width: 150px; height: 150px; object-fit: cover;">
 
 <div style="display: flex; align-items: center;">
     <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/eric.png" 
