@@ -8,17 +8,7 @@ permalink: /about/
 
 ## Zoe Ludena
 
-{% raw %}
-   <div class="col-9">
-        <h4 style="padding-top: 0; margin-top: 0">
-            <a href="[http://eldridgejm.github.io](https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/zoe.jpg)">Zoe Ludena</a>
-        </h4>
-        <p>I teach data science classes at UCSD.</p>
-    </div>
-{% endraw %}
-
-
-<img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/zoe.jpg" style="clip-path: circle(); width: 80%;">
+<img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/zoe.jpg" style="clip-path: circle(); width: 80%; width: 150px; height: 150px; object-fit: cover;">
 
 <a href="https://zoeludena.github.io/" target="_blank">
     <button>Zoe's Website</button>
