@@ -29,3 +29,5 @@ To predict the future, we built upon our previous research paper (TODO), that us
 We see rise.
 
 <iframe src="assets/figures/tas_predict_vs_historical.html" width=800 height=600 frameBorder=0></iframe>
+
+<iframe src="assets/figures/tas_preds_ssps.html" width=800 height=600 frameBorder=0></iframe>
