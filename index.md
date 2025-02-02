@@ -1,4 +1,4 @@
----
+        ---
 layout: home
 title: SeeRise
 ---
@@ -35,22 +35,20 @@ We see rise.
   function adjustIframeSize() {
     let iframes = document.querySelectorAll("iframe");
     let screenWidth = window.innerWidth;
-    
-    if (screenWidth <= 480) { // Mobile screen
-      iframes.forEach(iframe => {
+
+    iframes.forEach(iframe => {
+      if (screenWidth <= 480) { // Mobile screen
         iframe.style.width = "400px";
         iframe.style.height = "300px";
-      });
-    } else { // Desktop or larger screens
-      iframes.forEach(iframe => {
+      } else { // Desktop or larger screens
         iframe.style.width = "800px";
         iframe.style.height = "600px";
-      });
-    }
+      }
+    });
   }
 
   // Adjust iframe size on page load and when resizing the window
-  window.onload = adjustIframeSize;
-  window.onresize = adjustIframeSize;
+  window.addEventListener("load", adjustIframeSize);
+  window.addEventListener("resize", adjustIframeSize);
 </script>
 
