@@ -1,4 +1,4 @@
-        ---
+---
 layout: home
 title: SeeRise
 ---
@@ -28,27 +28,7 @@ To predict the future, we built upon our previous research paper (TODO), that us
 
 We see rise.
 
-<iframe id="iframe1" src="assets/figures/tas_predict_vs_historical.html" frameborder="0"></iframe>
-<iframe id="iframe2" src="assets/figures/tas_preds_ssps.html" frameborder="0"></iframe>
+<iframe src="assets/figures/tas_predict_vs_historical.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
-<script>
-  function adjustIframeSize() {
-    let iframes = document.querySelectorAll("iframe");
-    let screenWidth = window.innerWidth;
-
-    iframes.forEach(iframe => {
-      if (screenWidth <= 480) { // Mobile screen
-        iframe.style.width = "400px";
-        iframe.style.height = "300px";
-      } else { // Desktop or larger screens
-        iframe.style.width = "800px";
-        iframe.style.height = "600px";
-      }
-    });
-  }
-
-  // Adjust iframe size on page load and when resizing the window
-  window.addEventListener("load", adjustIframeSize);
-  window.addEventListener("resize", adjustIframeSize);
-</script>
+<iframe src="assets/figures/tas_preds_ssps.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
