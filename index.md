@@ -32,4 +32,4 @@ We see rise.
 
 <iframe src="assets/figures/tas_preds_ssps.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
-<iframe src="assets/figures/nasa_slr_projection.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+<iframe src="assets/figures/nasa_slr_projection.html" width="90%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
