@@ -32,7 +32,7 @@ permalink: /team/
     <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/ylesia.jpg" 
          style="clip-path: circle(); width: 150px; height: 150px; object-fit: cover; margin-right: 15px;">
     <div>
-        <a href="https://zoeludena.github.io/" target="_blank">
+        <a href="https://github.com/ylesia-wu" target="_blank">
             <button style="background-color: #007BFF; color: white; border: none; padding: 10px 20px; 
                border-radius: 8px; font-size: 16px; cursor: pointer; transition: 0.3s; 
                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);"
