@@ -40,7 +40,7 @@ permalink: /team/
                 onmouseout="this.style.backgroundColor='#007BFF'; this.style.transform='scale(1)';"
                 onmousedown="this.style.backgroundColor='#003f7f'; this.style.transform='scale(0.95)';"
                 onmouseup="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1.05)';">
-                TODO Link</button>
+                Ylesia's GitHub</button>
         </a>
         <p><br></p>
         <p>Ylesia Wu is a senior data science major at the University of California, San Diego.</p>
