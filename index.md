@@ -28,5 +28,29 @@ To predict the future, we built upon our previous research paper (TODO), that us
 
 We see rise.
 
-<iframe src="assets/figures/tas_predict_vs_historical.html" width=400 height=300 frameBorder=0></iframe>
-<iframe src="assets/figures/tas_preds_ssps.html" width=400 height=300 frameBorder=0></iframe>
+<iframe id="iframe1" src="assets/figures/tas_predict_vs_historical.html" frameborder="0"></iframe>
+<iframe id="iframe2" src="assets/figures/tas_preds_ssps.html" frameborder="0"></iframe>
+
+<script>
+  function adjustIframeSize() {
+    let iframes = document.querySelectorAll("iframe");
+    let screenWidth = window.innerWidth;
+    
+    if (screenWidth <= 480) { // Mobile screen
+      iframes.forEach(iframe => {
+        iframe.style.width = "400px";
+        iframe.style.height = "300px";
+      });
+    } else { // Desktop or larger screens
+      iframes.forEach(iframe => {
+        iframe.style.width = "800px";
+        iframe.style.height = "600px";
+      });
+    }
+  }
+
+  // Adjust iframe size on page load and when resizing the window
+  window.onload = adjustIframeSize;
+  window.onresize = adjustIframeSize;
+</script>
+
