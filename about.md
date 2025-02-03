@@ -53,7 +53,7 @@ permalink: /team/
     <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/eric.png" 
          style="clip-path: circle(); width: 150px; height: 150px; object-fit: cover; margin-right: 15px;">
     <div>
-        <a href="https://zoeludena.github.io/" target="_blank">
+        <a href="https://www.linkedin.com/in/ericmpham/" target="_blank">
             <button style="background-color: #007BFF; color: white; border: none; padding: 10px 20px; 
                border-radius: 8px; font-size: 16px; cursor: pointer; transition: 0.3s; 
                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);"
@@ -61,7 +61,7 @@ permalink: /team/
                 onmouseout="this.style.backgroundColor='#007BFF'; this.style.transform='scale(1)';"
                 onmousedown="this.style.backgroundColor='#003f7f'; this.style.transform='scale(0.95)';"
                 onmouseup="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1.05)';">
-                TODO Link</button>
+                Eric's LinkedIn</button>
         </a>
         <p><br></p>
         <p>Eric Pham is a senior data science major at the University of California, San Diego.</p>
