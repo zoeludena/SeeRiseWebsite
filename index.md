@@ -6,14 +6,15 @@ title: SeeRise
 # Visualizing Emulated Sea Level Rise on Coastal Regions
 
 <a href="https://github.com/zoeludena/SeeRise" target="_blank">
-    <button style="background-color: #007BFF; color: white; border: none; padding: 10px 20px; 
+    <button style="background-color: #6C7A89; color: white; border: none; padding: 10px 20px; 
                border-radius: 8px; font-size: 16px; cursor: pointer; transition: 0.3s; 
                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);"
-                onmouseover="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1.05)';" 
-                onmouseout="this.style.backgroundColor='#007BFF'; this.style.transform='scale(1)';"
-                onmousedown="this.style.backgroundColor='#003f7f'; this.style.transform='scale(0.95)';"
-                onmouseup="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1.05)';">
-            GitHub Page</button>
+                onmouseover="this.style.backgroundColor='#5A6978'; this.style.transform='scale(1.05)';" 
+                onmouseout="this.style.backgroundColor='#6C7A89'; this.style.transform='scale(1)';"
+                onmousedown="this.style.backgroundColor='#485563'; this.style.transform='scale(0.95)';"
+                onmouseup="this.style.backgroundColor='#5A6978'; this.style.transform='scale(1.05)';">
+            GitHub/Code
+    </button>
 </a>
 
 ## Introduction
@@ -47,8 +48,3 @@ Our fourth figure plots the NASA projection and uncertainty window. This is from
 Our fifth figure plots the NASA projection for SSP 245 and the emulators. We can see that we are underpredicting quite a bit. The emulator that performs the best appears to be the gaussian process.
 
 <iframe src="assets/figures/ssp245_projection.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
-
-<iframe src="assets/figures/ssp245_projection.html" 
-        style="width: 100%; height: auto; aspect-ratio: 4 / 3; border: 0;">
-</iframe>
-
