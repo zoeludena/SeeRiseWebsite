@@ -28,10 +28,18 @@ To predict the future, we built upon our previous research paper (TODO), that us
 
 We see rise.
 
+Our first figure is one of our temperature prediction using the pattern scaling (linear) emulator. We can see it does a good job predicting sea level rise. This follows the paper (TODO).
+
 <iframe src="assets/figures/tas_predict_vs_historical.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+
+Our second figure is using the pattern scaling (linear) emulator to predict the different Shared Socioeconomic Pathways (SSPs).
 
 <iframe src="assets/figures/tas_preds_ssps.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
+Our third figure uses three other emulators. We can see the neural network, gaussian processing model, and random forest model perform slightly different than pattern scaling, but still follow the general expected trend.
+
 <iframe src="assets/figures/tas_preds_ssp245_compare_emulators" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+
+Our fourth figure plots the NASA projection and uncertainty window. This is from (TODO).
 
 <iframe src="assets/figures/nasa_slr_projection.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
