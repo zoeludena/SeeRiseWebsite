@@ -41,7 +41,7 @@ Our third figure uses three other emulators. We can see the neural network, gaus
 
 <iframe src="assets/figures/tas_preds_ssp245_compare_emulators" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
-Our fourth figure plots the NASA projection and uncertainty window. This is from (TODO).
+Our fourth figure plots the NASA projection and uncertainty window. This is from (TODO). Seen below are the median see level rise predicted every ten years.
 
 <iframe src="assets/figures/nasa_slr_projection.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
