@@ -47,3 +47,8 @@ Our fourth figure plots the NASA projection and uncertainty window. This is from
 Our fifth figure plots the NASA projection for SSP 245 and the emulators. We can see that we are underpredicting quite a bit. The emulator that performs the best appears to be the gaussian process.
 
 <iframe src="assets/figures/ssp245_projection.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+
+<iframe src="assets/figures/ssp245_projection.html" 
+        style="width: 100%; height: auto; aspect-ratio: 4 / 3; border: 0;">
+</iframe>
+
