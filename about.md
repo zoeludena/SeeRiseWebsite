@@ -20,7 +20,6 @@ permalink: /team/
                 onmouseup="this.style.backgroundColor='#5A6978'; this.style.transform='scale(1.05)';">
             Zoe's Website
     </button>
-</a>
         </a>
         <p><br></p>
         <p>Zoe Ludena is a senior data science major at the University of California, San Diego. She has a minor in business economics.</p>
@@ -44,6 +43,7 @@ permalink: /team/
                 onmouseup="this.style.backgroundColor='#5A6978'; this.style.transform='scale(1.05)';">
             Ylesia's GitHub
         </button>
+            </a>
         <p><br></p>
         <p>Ylesia Wu is a senior data science major at the University of California, San Diego.</p>
     </div>
@@ -65,6 +65,7 @@ permalink: /team/
                 onmouseup="this.style.backgroundColor='#5A6978'; this.style.transform='scale(1.05)';">
             Eric's LinkedIn
         </button>
+            </a>
         <p><br></p>
         <p>Eric Pham is a senior data science major at the University of California, San Diego.</p>
     </div>
