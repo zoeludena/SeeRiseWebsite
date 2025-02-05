@@ -43,3 +43,7 @@ Our third figure uses three other emulators. We can see the neural network, gaus
 Our fourth figure plots the NASA projection and uncertainty window. This is from (TODO).
 
 <iframe src="assets/figures/nasa_slr_projection.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+
+Our fifth figure plots the NASA projection for SSP 245 and the emulators.
+
+<iframe src="assets/figures/ssp245_projection.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
