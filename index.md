@@ -67,7 +67,7 @@ $$
 
 Finally, as a simple sanity check, we compare visually and quantitatively the predicted sea level rise against both historical satellite data and other projections of sea level rise (NASA).
 
-
+<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/ssp245_projection.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
 ## Results
 
