@@ -48,7 +48,7 @@ principal components of SO2 and BC, CO2, and CH4. `max_features` was changed fro
 
 Neural networks excel at climate prediction due to their ability to model complex, non-linear relationships between atmospheric variables. Their deep architectures enable them to learn patterns from large-scale climate data, capturing intricate dependencies that traditional models may overlook. Their adaptability also allows them to generalize well across different climate scenarios, making them valuable for long-term forecasting and extreme weather prediction. We decided to use the original CNN-LTSM model from the ClimateBench.
 
-**Sea Level Rise Projection**
+### Sea Level Rise Projection
 
 Using the model described by Rahmstorf (2007), we then produce a linear fit for change in sea level height, regressed on temperature anomaly (temperature difference from a baseline). We take our temperature air surface variable from each of the emulator output files and then use it to train the model on predicted sea level rise in the NOR-ESM2 model for each SSP scenario.
 
@@ -58,7 +58,7 @@ $$
 \frac{dH}{dt} = a(T - T_0)
 $$
 
-where  \frac{dH}{dt} \) is change in sea level height per year, \( a \) is a proportionality constant, and \( T - T_0 \) is temperature relative to a baseline. Finally, to get the total sea level rise, we integrate the rate of sea level rise \( \frac{dH}{dt} \) to obtain the total height at the final year of recorded temperature:
+where  $\frac{dH}{dt}$ is change in sea level height per year, $ a $ is a proportionality constant, and $ T - T_0 $ is temperature relative to a baseline. Finally, to get the total sea level rise, we integrate the rate of sea level rise $ \frac{dH}{dt} $ to obtain the total height at the final year of recorded temperature:
 
 $$
 H(t) = \int_{t_0}^{t} \frac{dH}{dt} dt.
