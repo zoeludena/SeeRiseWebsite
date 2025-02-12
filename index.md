@@ -1,6 +1,6 @@
 ---
 layout: home
-title: SeeRise
+title: SeeRise 🌊
 ---
 
 # Visualizing Emulated Sea Level Rise on Coastal Regions
