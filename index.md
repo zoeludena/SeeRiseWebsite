@@ -5,17 +5,32 @@ title: SeeRise
 
 # Visualizing Emulated Sea Level Rise on Coastal Regions
 
-<a href="https://github.com/zoeludena/SeeRise" target="_blank">
-    <button style="background-color: #6C7A89; color: white; border: none; padding: 10px 20px; 
-               border-radius: 8px; font-size: 16px; cursor: pointer; transition: 0.3s; 
-               box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);"
+<div style="display: flex; gap: 10px; align-items: center;">
+    <a href="https://github.com/zoeludena/SeeRise" target="_blank">
+        <button style="background-color: #6C7A89; color: white; border: none; padding: 10px 20px; 
+                    border-radius: 8px; font-size: 16px; cursor: pointer; transition: 0.3s; 
+                    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);"
                 onmouseover="this.style.backgroundColor='#5A6978'; this.style.transform='scale(1.05)';" 
                 onmouseout="this.style.backgroundColor='#6C7A89'; this.style.transform='scale(1)';"
                 onmousedown="this.style.backgroundColor='#485563'; this.style.transform='scale(0.95)';"
                 onmouseup="this.style.backgroundColor='#5A6978'; this.style.transform='scale(1.05)';">
             GitHub/Code
+        </button>
+    </a>
+
+<a href="https://example.com" target="_blank">
+    <button style="background-color: #3498db; color: white; border: none; padding: 10px 20px; 
+                border-radius: 8px; font-size: 16px; cursor: pointer; transition: 0.3s; 
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);"
+            onmouseover="this.style.backgroundColor='#2980b9'; this.style.transform='scale(1.05)';" 
+            onmouseout="this.style.backgroundColor='#3498db'; this.style.transform='scale(1)';"
+            onmousedown="this.style.backgroundColor='#1f669a'; this.style.transform='scale(0.95)';"
+            onmouseup="this.style.backgroundColor='#2980b9'; this.style.transform='scale(1.05)';">
+        Research Paper
     </button>
 </a>
+</div>
+
 
 ## Our Inspiration
 
