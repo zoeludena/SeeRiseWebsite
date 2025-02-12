@@ -14,7 +14,7 @@ title: SeeRise 🌊
                 onmouseout="this.style.backgroundColor='#6C7A89'; this.style.transform='scale(1)';"
                 onmousedown="this.style.backgroundColor='#485563'; this.style.transform='scale(0.95)';"
                 onmouseup="this.style.backgroundColor='#5A6978'; this.style.transform='scale(1.05)';">
-            GitHub/Code
+            💽GitHub/Code
         </button>
     </a>
 
@@ -26,7 +26,7 @@ title: SeeRise 🌊
             onmouseout="this.style.backgroundColor='#3498db'; this.style.transform='scale(1)';"
             onmousedown="this.style.backgroundColor='#1f669a'; this.style.transform='scale(0.95)';"
             onmouseup="this.style.backgroundColor='#2980b9'; this.style.transform='scale(1.05)';">
-        Research Paper
+        📃Research Paper
     </button>
 </a>
 </div>
