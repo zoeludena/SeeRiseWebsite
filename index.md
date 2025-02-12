@@ -18,7 +18,7 @@ title: SeeRise
         </button>
     </a>
 
-<a href="https://example.com" target="_blank">
+<a href="https://github.com/zoeludena/SeeRiseWebsite/blob/main/assets/SeeRise_Paper.pdf" target="_blank">
     <button style="background-color: #3498db; color: white; border: none; padding: 10px 20px; 
                 border-radius: 8px; font-size: 16px; cursor: pointer; transition: 0.3s; 
                 box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);"
