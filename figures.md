@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Figures
+title: Figures 📈
 permalink: /figures/
 ---
 
