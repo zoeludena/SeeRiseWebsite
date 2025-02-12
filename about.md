@@ -71,8 +71,6 @@ permalink: /team/
     </div>
 </div>
 
-# Our Mentor
-
 ## Duncan Watson-Parris
 
 <div style="display: flex; align-items: center;">
