@@ -58,7 +58,7 @@ $$
 \frac{dH}{dt} = a(T - T_0)
 $$
 
-where \( \frac{dH}{dt} \) is change in sea level height per year, \( a \) is a proportionality constant, and \( T - T_0 \) is temperature relative to a baseline. Finally, to get the total sea level rise, we integrate the rate of sea level rise \( \frac{dH}{dt} \) to obtain the total height at the final year of recorded temperature:
+where  \frac{dH}{dt} \) is change in sea level height per year, \( a \) is a proportionality constant, and \( T - T_0 \) is temperature relative to a baseline. Finally, to get the total sea level rise, we integrate the rate of sea level rise \( \frac{dH}{dt} \) to obtain the total height at the final year of recorded temperature:
 
 $$
 H(t) = \int_{t_0}^{t} \frac{dH}{dt} dt.
@@ -76,4 +76,17 @@ We see rise.
 <script type="text/javascript" async 
   src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script type="text/javascript" async 
-  id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  id="MathJax-script" 
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
