@@ -38,6 +38,7 @@ In the Rahmstorf paper they use linear regression trained on historical temperat
 Climate systems are governed by complex, smooth, and highly nonlinear relationships, making Gaussian Process (GP) emulators well-suited for predicting future climate scenarios. Building on our previous research in (TODO), we chose to utilize the original GP model from ClimateBench as a foundation for our work. This approach leverages the flexibility and uncertainty quantification capabilities of GPs to improve climate predictions.
 
 **Random Forest Emulator**
+
 Random Forest is an ensemble method that combines multiple decision trees to improve predictive performance. While decision trees capture non-linear relationships well, they tend to overfit. Random Forest mitigates this by averaging predictions, reducing variance, and enhancing robustness. This makes it ideal for climate model emulation, where multiple target variables require separate models.
 
 The features for our random forest model consist of the first five
@@ -51,22 +52,28 @@ Neural networks excel at climate prediction due to their ability to model comple
 
 Using the model described by Rahmstorf (2007), we then produce a linear fit for change in sea level height, regressed on temperature anomaly (temperature difference from a baseline). We take our temperature air surface variable from each of the emulator output files and then use it to train the model on predicted sea level rise in the NOR-ESM2 model for each SSP scenario.
 
-Mathematically, the model equation is of the form:  
+Mathematically, the model equation is of the form:
 
-\[
-    \frac{dH}{dt} = a(T - T_0)
-\]
+$$
+\frac{dH}{dt} = a(T - T_0)
+$$
 
-where \(\frac{dH}{dt}\) is change in sea level height per year, \(a\) is a proportionality constant, and \(T-T_0\) is temperature relative to a baseline. Finally, to get the total sea level rise, we integrate the rate of sea level rise \(\frac{dH}{dt}\) to obtain the total height at the final year of recorded temperature:  
+where \( \frac{dH}{dt} \) is change in sea level height per year, \( a \) is a proportionality constant, and \( T - T_0 \) is temperature relative to a baseline. Finally, to get the total sea level rise, we integrate the rate of sea level rise \( \frac{dH}{dt} \) to obtain the total height at the final year of recorded temperature:
 
-\[
-    H(t) = \int_{t_0}^{t} \frac{dH}{dt}dt \text{.}
-\]  
+$$
+H(t) = \int_{t_0}^{t} \frac{dH}{dt} dt.
+$$
 
 Programmatically, this means using `np.cumsum()` to add up all the changes to obtain the year-over-year sea level rise. Additionally, depending on the source of the training sea level rise data, the data may need to be transformed by using `np.diff()` to turn total height into the rate of change of height.
 
 Finally, as a simple sanity check, we compare visually and quantitatively the predicted sea level rise against both historical satellite data and other projections of sea level rise (NASA).
 
+
 ## Results
 
 We see rise.
+
+<script type="text/javascript" async 
+  src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" async 
+  id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
