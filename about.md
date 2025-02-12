@@ -74,7 +74,7 @@ permalink: /team/
 ## Duncan Watson-Parris
 
 <div style="display: flex; align-items: center;">
-    <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/DuncanWatson-Parris.jpeg" 
+    <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/watson_parris_2023.jpg" 
          style="clip-path: circle(); width: 150px; height: 150px; object-fit: cover; margin-right: 15px;">
     <div>
         <a href="https://duncanwp.github.io/" target="_blank">
