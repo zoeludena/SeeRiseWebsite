@@ -22,7 +22,7 @@ permalink: /team/
     </button>
         </a>
         <p><br></p>
-        <p>Zoe Ludena is a data science major and business economics minor. She has been passionate about the enviornment since high school where she volunteered for the San Diego Safari Park with [Conservation Corps](https://sdzsafaripark.org/kids-programs/conservation-corps). She is driven to help teach others about climate change to inspire informed decision-making.</p>
+        <p>Zoe Ludena is a data science major and business economics minor. She has been passionate about the enviornment since high school where she volunteered for the San Diego Safari Park with <a href="https://sdzsafaripark.org/kids-programs/conservation-corps">Conservation Corps</a>. She is driven to help teach others about climate change to inspire informed decision-making.</p>
     </div>
 </div>
 
