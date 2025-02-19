@@ -12,5 +12,6 @@ header_pages:
   - index.md
   - about.md
   - figures.md
+  - app.md
 
 author: Eric Pham, Ylesia Wu, & Zoe Ludena
