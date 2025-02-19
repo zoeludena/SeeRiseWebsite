@@ -6,5 +6,4 @@ permalink: /app/
 
 <iframe
   src="https://seeriseflorida.streamlit.app/?embed=true"
-  style="height: 450px; width: 100%;"
-></iframe>
+  width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
