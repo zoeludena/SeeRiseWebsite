@@ -30,7 +30,7 @@ permalink: /team/
 ## Ylesia Wu
 
 <div style="display: flex; align-items: center;">
-    <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/ylesia.jpg" 
+    <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/Ylesia_Wu_headshot.jpg" 
          style="clip-path: circle(); width: 150px; height: 150px; object-fit: cover; margin-right: 15px;">
     <div>
         <a href="https://github.com/ylesia-wu" target="_blank">
@@ -45,7 +45,7 @@ permalink: /team/
         </button>
             </a>
         <p><br></p>
-        <p>Ylesia Wu is a senior data science major at the University of California, San Diego.</p>
+        <p>Ylesia Wu is a senior data science major at the University of California, San Diego. She likes singing and ice skating.</p>
     </div>
 </div>
 
