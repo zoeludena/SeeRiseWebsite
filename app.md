@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Florida App
+title: Florida Predictions
 permalink: /app/
 ---
 
