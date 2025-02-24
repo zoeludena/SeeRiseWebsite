@@ -5,7 +5,7 @@ permalink: /team/
 ---
 
 ## Group Picture
-<img src = https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/team.jpg>
+<img src = "https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/team.jpg">
 
 ## Zoe Ludena
 
