@@ -1,12 +1,8 @@
 ---
 layout: page
-title: Florida Sea Rise
+title: App
 permalink: /app/
 ---
-
-<p>
-  Work in Progress...
-</p>
 
 <iframe
   src="https://seerise-floridaapp.streamlit.app/?embed=true"
