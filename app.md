@@ -1,6 +1,6 @@
 ---
 layout: page
-title: App
+title: App 🌡️
 permalink: /app/
 ---
 
