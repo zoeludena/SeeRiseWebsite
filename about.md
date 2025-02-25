@@ -4,9 +4,6 @@ title: The Team 👋
 permalink: /team/
 ---
 
-## Group Picture
-<img src = "https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/team.jpg">
-
 ## Zoe Ludena
 
 <div style="display: flex; align-items: center;">
@@ -25,7 +22,7 @@ permalink: /team/
     </button>
         </a>
         <p><br></p>
-        <p>Zoe Ludena is a data science major and business economics minor. She has been passionate about the enviornment since high school where she volunteered for the San Diego Safari Park with <a href="https://sdzsafaripark.org/kids-programs/conservation-corps">Conservation Corps</a>. She is driven to help teach others about climate change to inspire informed decision-making.</p>
+        <p>Zoe Ludena is a data science major and business economics minor. She has been passionate about the environment since high school where she volunteered for the San Diego Safari Park with <a href="https://sdzsafaripark.org/kids-programs/conservation-corps">Conservation Corps</a>. She is driven to help teach others about climate change to inspire informed decision-making.</p>
     </div>
 </div>
 
@@ -48,14 +45,14 @@ permalink: /team/
         </button>
             </a>
         <p><br></p>
-        <p>Ylesia Wu is a senior data science major at the University of California, San Diego. She likes singing and ice skating.</p>
+        <p>Ylesia Wu is a senior data science major at the University of California San Diego. She likes singing and ice skating.</p>
     </div>
 </div>
 
 ## Eric Pham
 
 <div style="display: flex; align-items: center;">
-    <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/eric.png" 
+    <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/Eric_Pham.jpeg" 
          style="clip-path: circle(); width: 150px; height: 150px; object-fit: cover; margin-right: 15px;">
     <div>
         <a href="https://www.linkedin.com/in/ericmpham/" target="_blank">
@@ -70,7 +67,7 @@ permalink: /team/
         </button>
             </a>
         <p><br></p>
-        <p>Eric Pham is a senior data science major at the University of California, San Diego.</p>
+        <p>Eric Pham is a senior data science major and oceanic & atmospheric science major at UCSD. He is mainly interested in climate science, specifically modeling. In his free time, he enjoys playing tennis and crocheting.</p>
     </div>
 </div>
 
@@ -96,3 +93,5 @@ permalink: /team/
     </div>
 </div>
 
+## Group Picture
+<img src = "https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/team.jpg">
