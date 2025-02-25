@@ -94,6 +94,7 @@ permalink: /team/
 </div>
 
 ## Group Picture
+
 <img src = "https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/team.jpg"
     style="width: 400px; height: 300px;"
     align="center">
