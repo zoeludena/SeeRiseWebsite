@@ -19,7 +19,7 @@ permalink: /team/
                 onmousedown="this.style.backgroundColor='#485563'; this.style.transform='scale(0.95)';"
                 onmouseup="this.style.backgroundColor='#5A6978'; this.style.transform='scale(1.05)';">
             Zoe's Website
-    </button>
+        </button>
         </a>
         <p><br></p>
         <p>Zoe Ludena is a data science major and business economics minor. She has been passionate about the environment since high school where she volunteered for the San Diego Safari Park with <a href="https://sdzsafaripark.org/kids-programs/conservation-corps">Conservation Corps</a>. She is driven to help teach others about climate change to inspire informed decision-making.</p>
@@ -95,4 +95,5 @@ permalink: /team/
 
 ## Group Picture
 <img src = "https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/team.jpg"
-    style="width: 400px; height: 300px;">
+    style="width: 400px; height: 300px;"
+    align="center">
