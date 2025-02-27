@@ -70,7 +70,7 @@ Finally, as a simple sanity check, we compare visually and quantitatively the pr
 
 **Comparing Projections of Sea Level Rise with Historical**
 
-<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/historical_tas_preds_ssps.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/tas_predict_vs_historical.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
 **Comparing Projections of Sea Level Rise from NASA**
 
