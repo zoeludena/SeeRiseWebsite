@@ -60,7 +60,7 @@ $$
 \frac{dH}{dt} = a(T - T_0)
 $$
 
-where  $\frac{dH}{dt}$ is change in sea level height per year, $a$ is a proportionality constant, and $T - T_0$ is temperature relative to a baseline. Finally, to get the total sea level rise, we integrate the rate of sea level rise $\frac{dH}{dt}$ to obtain the total height at the final year of recorded temperature:
+where  $\frac{dH}{dt}$ is change in sea level height per year, \\(a\\) is a proportionality constant, and \\(T - T_0\\) is temperature relative to a baseline. Finally, to get the total sea level rise, we integrate the rate of sea level rise \\(\frac{dH}{dt}\\) to obtain the total height at the final year of recorded temperature:
 
 $$
 H(t) = \int_{t_0}^{t} \frac{dH}{dt} dt.
@@ -83,11 +83,11 @@ We chose the following locations:
 
 We then took the median amount of sea level rise and determined how much land would be submerged. For this paper we used the cumulative amount of carbon dioxide in 2100 for SSP 245, which is about 4520 Gigatons of carbon dioxide.
 
-You can visualize these changes on our application or figures.
+You can visualize these changes on our [application](https://zoeludena.github.io/SeeRiseWebsite/app/) or [figures](https://zoeludena.github.io/SeeRiseWebsite/figures/).
 
 ### Expected Sea Level Rise
 
-According to NASA projections, the expected cumulative rise in sea level between 2015-2100 would be 536.4 mm. We found this data from NASA's Sea Level Projection tool, modified for our year range (2015-2100).
+According to [NASA projections](https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool?type=global), the expected cumulative rise in sea level between 2015-2100 would be 536.4 mm. We found this data from NASA's Sea Level Projection tool, modified for our year range (2015-2100).
 
 NASA includes sea level rise starting from 2011, which is why their number on the website (556 mm) is different than ours.
 
