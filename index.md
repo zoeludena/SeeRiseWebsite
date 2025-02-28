@@ -112,6 +112,10 @@ In the Rahmstorf paper they use linear regression trained on historical temperat
 | Random Forest   | 511.3         | 25.1                   |
 | CNN-LSTM        | 417.0         | 119.4                  |
 
+**Comparing Emulators with NASA Keeping Greenhouse Gases Fixed at 2025**
+
+<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_emulator_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+
 ### Validation Set Sea Level Rise Analysis
 
 As we can see, the Pattern Scaling, Gaussian Process, and Random Forest emulators perform about equally well. They are under predicting by the size of a peanut (20 mm) or about an inch (25 mm).
