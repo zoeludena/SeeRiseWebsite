@@ -24,7 +24,7 @@ Our third figure plots the NASA projection and uncertainty window, their [Sea Le
 
 ## Figure 4:
 
-Our fourth figure uses three other emulators and plots alongside an adjusted NASA value (from 2015-2100). We can see the neural network, gaussian processing model, and random forest model perform slightly different than pattern scaling, but still follow the general expected trend. These values were generated using SSP 254's values for 2015-2100.
+Our fourth figure uses three other emulators and plots alongside an adjusted NASA value (from 2015-2100). We can see the neural network, gaussian processing model, and random forest model perform slightly different than pattern scaling, but still follow the general expected trend. These values were generated using SSP 254's values for 2015-2100. You can see we are overpredicting, which is typical with the Rahmstorf model.
 
 <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/ssp245_emulator_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
