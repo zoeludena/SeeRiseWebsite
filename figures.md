@@ -78,7 +78,7 @@ Here are screenshots of our visualization of Miami. Recall the median sea level 
     <img src="assets/figures/CNN_Miami_4520.png" alt="CNN Miami" style="width:75%;"><br>
   </div>
 
-  ## Figure 12:
+## Figure 12:
 
 Here are screenshots of our visualization of Fort Myers Beach. Recall the median sea level rise with cumulative carbon dioxide at 4520 gigatons is the same for the pattern scaling, random forest, and gaussian process emulators.
 
