@@ -44,6 +44,7 @@ The advent of sea level rise can have devastating consequences on coastal areas 
 <details>
   <summary>What is a Shared Socioeconomic Pathway (SSP)?</summary>
 
+<div markdown="1">
   SSPs are scenarios used in climate research to describe different ways society might develop in the future. So... what affects greenhouse gas emissions and how vulnerable are we to climate change? They're narratives that combine social, economic, and technological trends without including the climate policies themselves — policies are added on top of SSPs in modeling.
 
   They're commonly used with climate models to predict possible futures for things like: Global temperature rise, sea level rise, extreme weather, and economic and social impacts.
@@ -54,7 +55,7 @@ The advent of sea level rise can have devastating consequences on coastal areas 
   - **SSP 245 "Middle of the Road"**: Social, economic, and technological trends do not shift much from historical patterns. Environmental systems experience some degradation and the intensity of resource and energy use declines.
   - **SSP 370 "A Rocky Road"**: Policies shift to become increasingly oriented toward national and regional security issues. Countries focus on achieving their personal goals within their regions. Consumption is material-intensive and there is a low priority for addressing environmental concerns.
   - **SSP 585 "Taking the Highway"**: World places faith in competitive markets, innovation, and participatory societies to produce technological progress to create a sustainable future. Push for economic and social development is coupled with the exploitation of fossil fuel resources.
-
+</div>
 </details>
 
 <p><br></p>
