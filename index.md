@@ -152,9 +152,9 @@ For visualizing the topography of Florida corresponded to different sea level ri
 </details>
 <div style="height: 0.5em;"></div>
 
-We then took the median amount of sea level rise and determined how much land would be submerged. For this paper we used the cumulative amount of carbon dioxide in 2100 for SSP 245, which is about 4520 Gigatons of carbon dioxide.
+In our visualizations we took the median amount of sea level rise and determined how much land would be submerged. For this paper we used the cumulative amount of carbon dioxide in 2100 for SSP 245, which is about 4520 Gigatons of carbon dioxide.
 
-You can visualize these changes on our [application](https://zoeludena.github.io/SeeRiseWebsite/app/) or [figures](https://zoeludena.github.io/SeeRiseWebsite/figures/). Inside of our application you can also visualize other DEM files.
+You can visualize interactive changes on our [application](https://zoeludena.github.io/SeeRiseWebsite/app/) or look at [figures](https://zoeludena.github.io/SeeRiseWebsite/figures/). Inside of our application you can also visualize other DEM files!
 
 ### Expected Sea Level Rise
 
