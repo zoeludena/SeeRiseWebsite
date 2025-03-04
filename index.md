@@ -120,7 +120,7 @@ For visualizing the topography of Florida corresponded to different sea level ri
   Pattern Scaling, Gaussian Process, and Random Forest all have the same median sea level rise. Their visualizations of Sanibel Island are the same!
 
   <div style="text-align:center;">
-    <img src="assets/figures/PS_Sanibel_4520.png" alt="PS Sanibel Island" style="width:75%;"><br>
+    <img src="assets/figures/Sanibel_4520.png" alt="PS Sanibel Island" style="width:75%;"><br>
   </div>
   <div style="height: 0.5em;"></div>
 
