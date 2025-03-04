@@ -112,51 +112,42 @@ Florida is a state particularly susceptible to sea level rise due to its low-lyi
 For visualizing the topography of Florida corresponded to different sea level rise amounts, we chose the following coastal locations: Sanibel Island, Miami, Fort Myers Beach, Audubon/Merritt Island, and Everglades City.
 
 <details>
-  <summary>Visualizing Sea Level Rise</summary>
+  <summary>Visualizing Sanibel Island and IPhones</summary>
   These visualizations were created under the assumptions that all other greenhouse gases are at 2025 levels and the cumulative amount of carbon dioxide increases linearly from 2015 to 2100. It assumes in 2100 there will be 4520 gigatons of carbon dioxide.
 
-<div style="height: 0.5em;"></div>
+  <div style="height: 0.5em;"></div>
 
-<details>
-  <summary>Pattern Scaling:</summary>
+  Pattern Scaling, Gaussian Process, and Random Forest all have the same median sea level rise. Their visualizations of Sanibel Island are the same!
 
   <div style="text-align:center;">
     <img src="assets/figures/PS_Sanibel_4520.png" alt="PS Sanibel Island" style="width:75%;"><br>
-    <img src="assets/figures/ps_boxplot_4520.png" alt="PS Boxplot" style="width:75%;">
   </div>
+  <div style="height: 0.5em;"></div>
 
-</details>
-
-<details>
-  <summary>Gaussian Process:</summary>
-
+  Pattern Scaling Boxplot:
   <div style="text-align:center;">
-    <img src="assets/figures/GP_Sanibel_4520.png" alt="GP Sanibel Island" style="width:75%;"><br>
-    <img src="assets/figures/gp_boxplot_4520.png" alt="GP Boxplot" style="width:75%;">
+      <img src="assets/figures/ps_boxplot_4520.png" alt="PS Boxplot" style="width:75%;">
   </div>
+  <div style="height: 0.5em;"></div>
 
-</details>
-
-<details>
-  <summary>Random Forest:</summary>
-
+  Gaussian Process Boxplot:
   <div style="text-align:center;">
-    <img src="assets/figures/RF_Sanibel_4520.png" alt="RF Sanibel Island" style="width:75%;"><br>
-    <img src="assets/figures/rf_boxplot_4520.png" alt="RF Boxplot" style="width:75%;">
+      <img src="assets/figures/gp_boxplot_4520.png" alt="GP Boxplot" style="width:75%;">
   </div>
+  <div style="height: 0.5em;"></div>
 
-</details>
+  Random Forest Boxplot:
+  <div style="text-align:center;">
+      <img src="assets/figures/rf_boxplot_4520.png" alt="GP Boxplot" style="width:75%;">
+  </div>
+  <div style="height: 0.5em;"></div>
 
-<details>
-  <summary>CNN-LTSM:</summary>
+  The CNN-LTSM performed worse compared to the other three emulators and produced a different prediction:
 
   <div style="text-align:center;">
     <img src="assets/figures/CNN_Sanibel_4520.png" alt="CNN Sanibel Island" style="width:75%;"><br>
     <img src="assets/figures/cnn_boxplot_4520.png" alt="CNN Boxplot" style="width:75%;">
   </div>
-
-</details>
-
 
 </details>
 <div style="height: 0.5em;"></div>
