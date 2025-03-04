@@ -112,28 +112,44 @@ Florida is a state particularly susceptible to sea level rise due to its low-lyi
 For visualizing the topography of Florida corresponded to different sea level rise amounts, we chose the following coastal locations: Sanibel Island, Miami, Fort Myers Beach, Audubon/Merritt Island, and Everglades City.
 
 <details>
-  <summary>Visualizing Sea Level Rise at 4520 Gigatons of cumulative carbon dioxide:</summary>
+  <summary>Visualizing Sea Level Rise</summary>
+  These visualizations were created under the assumptions that all other greenhouse gases are at 2025 levels and the cumulative amount of carbon dioxide increases linearly from 2015 to 2100. It assumes in 2100 there will be 4520 gigatons of carbon dioxide.
+
+<div style="height: 0.5em;"></div>
 
 <details>
   <summary>Pattern Scaling:</summary>
-TODO
+  <div markdown="1">
+  ![PS Sanibel Island](assets/figures/PS_Sanibel_4520.png)
+  ![PS Sanibel Island](assets/figures/ps_boxplot_4520.png)
+  </div>
 </details>
 
 <details>
   <summary>Gaussian Process:</summary>
-TODO
+  <div markdown="1">
+  ![GP Sanibel Island](assets/figures/GP_Sanibel_4520.png)
+  ![GP Boxplot](assets/figures/gp_boxplot_4520.png)
+  </div>
 </details>
 
 <details>
   <summary>Random Forest:</summary>
-TODO
+  <div markdown="1">
+  ![RF Sanibel Island](assets/figures/RF_Sanibel_4520.png)
+  ![RF Boxplot](assets/figures/rf_boxplot_4520.png)
+  </div>
 </details>
 
 <details>
   <summary>CNN-LTSM:</summary>
-TODO
+  <div markdown="1">
+  ![CNN Sanibel Island](assets/figures/CNN_Sanibel_4520.png)
+  ![CNN Boxplot](assets/figures/cnn_boxplot_4520.png)
+  </div>
 </details>
 </details>
+<div style="height: 0.5em;"></div>
 
 We then took the median amount of sea level rise and determined how much land would be submerged. For this paper we used the cumulative amount of carbon dioxide in 2100 for SSP 245, which is about 4520 Gigatons of carbon dioxide.
 
