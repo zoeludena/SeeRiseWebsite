@@ -72,24 +72,17 @@ Finally, as a simple sanity check, we compare visually and quantitatively the pr
 
 <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/tas_predict_vs_historical.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
-**Comparing Projections of Sea Level Rise from NASA**
-
-<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/ssp245_emulator_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
-
 ## Results
 
 ### Florida Sea Level Rise
 
 Florida is a state particularly susceptible to sea level rise due to its low-lying topography and extensive coastline. To visualize the rise in sea level, we used digital elevation models (DEM). DEMs are a representation of the bare ground topographic surface of the Earth excluding trees, buildings, and any other surface objects. They are computed via LiDAR data (which is essentially a 3D scan of the Earth's surface), algorithms, and other data sources are used to construct the true elevation of just the land alone.
 
-We chose the following locations:
- - Sanibel Island
- - Fort Myers Beach
- - Courtenay
+For visualizing the topography of Florida corresponded to different sea level rise amounts, we chose the following coastal locations: Sanibel Island, Miami, Fort Myers Beach, Audubon/Merritt Island, and Everglades City.
 
 We then took the median amount of sea level rise and determined how much land would be submerged. For this paper we used the cumulative amount of carbon dioxide in 2100 for SSP 245, which is about 4520 Gigatons of carbon dioxide.
 
-You can visualize these changes on our [application](https://zoeludena.github.io/SeeRiseWebsite/app/) or [figures](https://zoeludena.github.io/SeeRiseWebsite/figures/).
+You can visualize these changes on our [application](https://zoeludena.github.io/SeeRiseWebsite/app/) or [figures](https://zoeludena.github.io/SeeRiseWebsite/figures/). Inside of our application you can also visualize other DEM files.
 
 ### Expected Sea Level Rise
 
