@@ -120,34 +120,43 @@ For visualizing the topography of Florida corresponded to different sea level ri
 <details>
   <summary>Pattern Scaling:</summary>
 
-  <img src="assets/figures/PS_Sanibel_4520.png" alt="PS Sanibel Island" style="width:50%;">
-  <img src="assets/figures/ps_boxplot_4520.png" alt="PS Boxplot" style="width:50%;">
+  <div style="text-align:center;">
+    <img src="assets/figures/PS_Sanibel_4520.png" alt="PS Sanibel Island" style="width:50%;"><br>
+    <img src="assets/figures/ps_boxplot_4520.png" alt="PS Boxplot" style="width:50%;">
+  </div>
 
 </details>
 
 <details>
   <summary>Gaussian Process:</summary>
 
-  <img src="assets/figures/GP_Sanibel_4520.png" alt="GP Sanibel Island" style="width:50%;">
-  <img src="assets/figures/gp_boxplot_4520.png" alt="GP Boxplot" style="width:50%;">
+  <div style="text-align:center;">
+    <img src="assets/figures/GP_Sanibel_4520.png" alt="GP Sanibel Island" style="width:50%;"><br>
+    <img src="assets/figures/gp_boxplot_4520.png" alt="GP Boxplot" style="width:50%;">
+  </div>
 
 </details>
 
 <details>
   <summary>Random Forest:</summary>
 
-  <img src="assets/figures/RF_Sanibel_4520.png" alt="RF Sanibel Island" style="width:50%;">
-  <img src="assets/figures/rf_boxplot_4520.png" alt="RF Boxplot" style="width:50%;">
+  <div style="text-align:center;">
+    <img src="assets/figures/RF_Sanibel_4520.png" alt="RF Sanibel Island" style="width:50%;"><br>
+    <img src="assets/figures/rf_boxplot_4520.png" alt="RF Boxplot" style="width:50%;">
+  </div>
 
 </details>
 
 <details>
   <summary>CNN-LTSM:</summary>
 
-  <img src="assets/figures/CNN_Sanibel_4520.png" alt="CNN Sanibel Island" style="width:50%;">
-  <img src="assets/figures/cnn_boxplot_4520.png" alt="CNN Boxplot" style="width:50%;">
+  <div style="text-align:center;">
+    <img src="assets/figures/CNN_Sanibel_4520.png" alt="CNN Sanibel Island" style="width:50%;"><br>
+    <img src="assets/figures/cnn_boxplot_4520.png" alt="CNN Boxplot" style="width:50%;">
+  </div>
 
 </details>
+
 
 </details>
 <div style="height: 0.5em;"></div>
