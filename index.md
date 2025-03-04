@@ -111,6 +111,30 @@ Florida is a state particularly susceptible to sea level rise due to its low-lyi
 
 For visualizing the topography of Florida corresponded to different sea level rise amounts, we chose the following coastal locations: Sanibel Island, Miami, Fort Myers Beach, Audubon/Merritt Island, and Everglades City.
 
+<details>
+  <summary>Visualizing Sea Level Rise at 4520 Gigatons of cumulative carbon dioxide:</summary>
+
+<details>
+  <summary>Pattern Scaling:</summary>
+TODO
+</details>
+
+<details>
+  <summary>Gaussian Process:</summary>
+TODO
+</details>
+
+<details>
+  <summary>Random Forest:</summary>
+TODO
+</details>
+
+<details>
+  <summary>CNN-LTSM:</summary>
+TODO
+</details>
+</details>
+
 We then took the median amount of sea level rise and determined how much land would be submerged. For this paper we used the cumulative amount of carbon dioxide in 2100 for SSP 245, which is about 4520 Gigatons of carbon dioxide.
 
 You can visualize these changes on our [application](https://zoeludena.github.io/SeeRiseWebsite/app/) or [figures](https://zoeludena.github.io/SeeRiseWebsite/figures/). Inside of our application you can also visualize other DEM files.
