@@ -4,9 +4,9 @@ title: App 🗺️
 permalink: /app/
 ---
 
-We invite you to open our map in full screen or work within the embedded link.
+We invite you to open our app in full screen or work within the embedded link.
 
-You will be able to visualize sea level rise based on different cumulative amounts of carbon dioxide in 2025. Please enjoy!
+You will be able to visualize sea level rise based on different cumulative amounts of carbon dioxide in 2100. Please enjoy!
 
 <a href="https://github.com/zoeludena/SeeRise-FloridaApp" target="_blank">
         <button style="background-color: #6C7A89; color: white; border: none; padding: 10px 20px; 
