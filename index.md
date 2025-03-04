@@ -35,28 +35,28 @@ title: SeeRise 🌊
 
 ## Our Inspiration
 
-The advent of sea level rise can have devastating consequences on coastal areas all around the world.  Low-lying regions—such as Florida, a state particularly susceptible to sea level rise due to its low-lying topography and extensive coastline—are especially a major focal point when it comes to modeling sea level rise as they are most vulnerable to changes. Using the method described by "A Semi-Empirical Approach to Projecting Future Sea-Level Rise" ([Rahmstorf 2007](https://www.pik-potsdam.de/~stefan/Publications/Nature/rahmstorf_science_2007.pdf)), which regresses the rate of sea level rise on surface air temperature anomaly, our team coupled this model with emulators from the “ClimateBench v1.0: A Benchmark for Data-Driven Climate Projections” ([Watson-Parris et al. 2022](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002954)) to create a predictor capable of simulating sea level rise in any future emission scenario, not just the ones prescribed by SSPs. This impact is then visualized using high-resolution topography data to assess the potential transformation of Florida’s coastal landscape, which can aid policymakers in developing mitigation and adaptation strategies.
+The advent of sea level rise can have devastating consequences on coastal areas all around the world.  Low-lying regions—such as Florida, a state particularly susceptible to sea level rise due to its low-lying topography and extensive coastline—are especially a major focal point when it comes to modeling sea level rise as they are most vulnerable to changes. Using the method described by "A Semi-Empirical Approach to Projecting Future Sea-Level Rise" ([Rahmstorf 2007](https://www.pik-potsdam.de/~stefan/Publications/Nature/rahmstorf_science_2007.pdf)), which regresses the rate of sea level rise on surface air temperature anomaly, our team coupled this model with emulators from the “ClimateBench v1.0: A Benchmark for Data-Driven Climate Projections” ([Watson-Parris et al. 2022](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002954)) to create a predictor capable of simulating sea level rise in any future emission scenario, not just the ones prescribed by Shared Socioeconomic Pathways. This impact is then visualized using high-resolution topography data to assess the potential transformation of Florida’s coastal landscape, which can aid policymakers in developing mitigation and adaptation strategies.
 
 ## Methods
 
 ### Climate Model Emulators
 
 <details>
-  <summary>What is an SSP?</summary>
+  <summary>What is a Shared Socioeconomic Pathway (SSP)?</summary>
 
-SSPs are scenarios used in climate research to describe different ways society might develop in the future. So... what affects greenhouse gas emissions and how vulnerable are we to climate change? They're narratives that combine social, economic, and technological trends without including the climate policies themselves — policies are added on top of SSPs in modeling.
+  SSPs are scenarios used in climate research to describe different ways society might develop in the future. So... what affects greenhouse gas emissions and how vulnerable are we to climate change? They're narratives that combine social, economic, and technological trends without including the climate policies themselves — policies are added on top of SSPs in modeling.
 
-They're commonly used with climate models to predict possible futures for things like: Global temperature rise, sea level rise, extreme weather, and conomic and social impacts.
+  They're commonly used with climate models to predict possible futures for things like: Global temperature rise, sea level rise, extreme weather, and economic and social impacts.
 
-The SSP's we talk about are:
+  The SSPs we talk about are:
 
-- SSP 126 "Taking the Green Road": There is an emphasis on human well-being, driven by an increasing commitment to achieve development goals. There is lower material growth and lower resource and energy intensity.
-- SSP 245 "Middle of the Road": Social, economic, and technological trends do not shift much from historical patterns. Environmental systems experience some degradation and the intensity of resource and energy use declines.
-- SSP 370 "A Rocky Road": policies shift to become increasingly oriented toward national and regional security issues. Countries focus on achieving their personal goals within their regions. Consumption is material-intensive and there is a low priority for addressing environmental concerns.
-- SSP 585 "Taking the Highway": World places faith in competitive markets, innovation, and participatory societies to produce technological progress to create a sustainable future. Push for economic and social development is coupled with the exploitation of fossil fuel resources.
-
+  - **SSP 126 "Taking the Green Road"**: There is an emphasis on human well-being, driven by an increasing commitment to achieve development goals. There is lower material growth and lower resource and energy intensity.
+  - **SSP 245 "Middle of the Road"**: Social, economic, and technological trends do not shift much from historical patterns. Environmental systems experience some degradation and the intensity of resource and energy use declines.
+  - **SSP 370 "A Rocky Road"**: Policies shift to become increasingly oriented toward national and regional security issues. Countries focus on achieving their personal goals within their regions. Consumption is material-intensive and there is a low priority for addressing environmental concerns.
+  - **SSP 585 "Taking the Highway"**: World places faith in competitive markets, innovation, and participatory societies to produce technological progress to create a sustainable future. Push for economic and social development is coupled with the exploitation of fossil fuel resources.
 
 </details>
+
 
 Our first objective was to tune the hyperparameter for each emulator model. The emulators are fitted to historical data and each SSP, excluding SSP 245 which is used for validation. The emulators take in any combination of greenhouse gas emissions as input, but in order to assure ourselves that the outputs are sensible, we used the prescribed emissions for the SSP scenarios for training and validation. The emulators are used to predict surface air temperature based on difference emission inputs, and we later use the predicted temperature as the input to our sea level model.
 
