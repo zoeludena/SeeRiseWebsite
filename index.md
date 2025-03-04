@@ -41,6 +41,23 @@ The advent of sea level rise can have devastating consequences on coastal areas 
 
 ### Climate Model Emulators
 
+<details>
+  <summary>What is an SSP?</summary>
+
+SSPs are scenarios used in climate research to describe different ways society might develop in the future. So... what affects greenhouse gas emissions and how vulnerable are we to climate change? They're narratives that combine social, economic, and technological trends without including the climate policies themselves — policies are added on top of SSPs in modeling.
+
+They're commonly used with climate models to predict possible futures for things like: Global temperature rise, sea level rise, extreme weather, and conomic and social impacts.
+
+The SSP's we talk about are:
+
+- SSP 126 "Taking the Green Road": There is an emphasis on human well-being, driven by an increasing commitment to achieve development goals. There is lower material growth and lower resource and energy intensity.
+- SSP 245 "Middle of the Road": Social, economic, and technological trends do not shift much from historical patterns. Environmental systems experience some degradation and the intensity of resource and energy use declines.
+- SSP 370 "A Rocky Road": policies shift to become increasingly oriented toward national and regional security issues. Countries focus on achieving their personal goals within their regions. Consumption is material-intensive and there is a low priority for addressing environmental concerns.
+- SSP 585 "Taking the Highway": World places faith in competitive markets, innovation, and participatory societies to produce technological progress to create a sustainable future. Push for economic and social development is coupled with the exploitation of fossil fuel resources.
+
+
+</details>
+
 Our first objective was to tune the hyperparameter for each emulator model. The emulators are fitted to historical data and each SSP, excluding SSP 245 which is used for validation. The emulators take in any combination of greenhouse gas emissions as input, but in order to assure ourselves that the outputs are sensible, we used the prescribed emissions for the SSP scenarios for training and validation. The emulators are used to predict surface air temperature based on difference emission inputs, and we later use the predicted temperature as the input to our sea level model.
 
 We used four different emulators based on what we learned in the ClimateBench and our previous research, [ResearchOnClimate](https://github.com/zoeludena/ResearchOnClimate/blob/main/Utilizing_Emulators_to_Explore_the_Climate_Model_Parameter_Space.pdf):
