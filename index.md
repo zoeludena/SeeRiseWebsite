@@ -142,9 +142,9 @@ In the Rahmstorf paper they use linear regression trained on historical temperat
 
 ### Validation Set Sea Level Rise Analysis
 
-As we can see, the Pattern Scaling, Gaussian Process, and Random Forest emulators perform about equally well. They are under predicting by the size of a peanut (20 mm) or about an inch (25 mm).
+As we can see, the Pattern Scaling, Gaussian Process, and Random Forest emulators perform about equally well. They are under predicting by the size of a peanut (20 mm) 🥜 or about an inch (25 mm).
 
-The CNN-LTSM model performs the worst. The measurement is off by about a standard playing card's length (120 mm).
+The CNN-LTSM model performs the worst. The measurement is off by about a standard playing card's length (120 mm) 🃏.
 
 This under prediction is caused because we decided to keep the other greenhouse gases constant. The values are from SSP245 at the year 2025. If we scaled our other greenhouse gases input appropriately, the emulators would give more accurate TAS values which in turn would lead to greater performance for our sea level rise regression.
 
