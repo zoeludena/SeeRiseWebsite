@@ -62,56 +62,36 @@ Our ninth figure plots the CNN-LTSM emulator's uncertainty and median prediction
 
 Here are screenshots of the boxplots for sea level rise when cumulative carbon dioxide is at 4520 gigatons in 2100.
 
-
-<div style="text-align:center;">
-
-  <img src="assets/figures/ps_boxplot_4520.png" alt="PS, RF, GP Miami" style="width:75%;"><br>
-  <img src="assets/figures/rf_boxplot_4520.png" alt="RF Miami" style="width:75%;"><br>
-  <img src="assets/figures/gp_boxplot_4520.png" alt="GP Miami" style="width:75%;"><br>
-  <img src="assets/figures/cnn_boxplot_4520.png" alt="CNN Miami" style="width:75%;"><br>
-
-</div>
+![PS, RF, GP Miami](assets/figures/ps_boxplot_4520.png)
+![RF Miami](assets/figures/rf_boxplot_4520.png)
+![GP Miami](assets/figures/gp_boxplot_4520.png)
+![CNN Miami](assets/figures/cnn_boxplot_4520.png)
 
 ## Figure 11:
 
 Here are screenshots of our visualization of Miami. Recall the median sea level rise with cumulative carbon dioxide at 4520 gigatons is the same for the pattern scaling, random forest, and gaussian process emulators.
 
-<div style="text-align:center;">
-
-<img src="assets/figures/Miami_4520.png" alt="PS, RF, GP Miami" style="width:75%;"><br>
-<img src="assets/figures/CNN_Miami_4520.png" alt="CNN Miami" style="width:75%;"><br>
-
-</div>
+![PS, RF, GP Miami](assets/figures/Miami_4520.png)
+![CNN Miami](assets/figures/CNN_Miami_4520.png)
 
 ## Figure 12:
 
 Here are screenshots of our visualization of Fort Myers Beach. Recall the median sea level rise with cumulative carbon dioxide at 4520 gigatons is the same for the pattern scaling, random forest, and gaussian process emulators.
 
-<div style="text-align:center;">
-
-<img src="assets/figures/Myer_4520.png" alt="PS, RF, GP Fort Myers Beach" style="width:75%;"><br>
-<img src="assets/figures/CNN_Myer_4520.png" alt="CNN Fort Myers Beach" style="width:75%;"><br>
-
-</div>
+![PS, RF, GP Fort Myers Beach](assets/figures/Myer_4520.png)
+![CNN Fort Myers Beach](assets/figures/CNN_Myer_4520.png)
 
 ## Figure 13:
 
 Here are screenshots of our visualization of Audubon/Merrit Island. This is the space between Audubon and Merrit Island. Recall the median sea level rise with cumulative carbon dioxide at 4520 gigatons is the same for the pattern scaling, random forest, and gaussian process emulators.
 
-<div style="text-align:center;">
-
-<img src="assets/figures/Audubon_4520.png" alt="PS, RF, GP Audubon/Merrit Island" style="width:75%;"><br>
-<img src="assets/figures/CNN_Audubon_4520.png" alt="CNN Audubon/Merrit Island" style="width:75%;"><br>
-
-</div>
+![PS, RF, GP Audubon/Merrit Island](assets/figures/Audubon_4520.png)
+![CNN Audubon/Merrit Island](assets/figures/CNN_Audubon_4520.png)
 
 ## Figure 14:
 
 Here are screenshots of our visualization of Everglades City. Recall the median sea level rise with cumulative carbon dioxide at 4520 gigatons is the same for the pattern scaling, random forest, and gaussian process emulators.
 
-<div style="text-align:center;">
+![PS, RF, GP Everglades City](assets/figures/Everglades_4520.png)
+![CNN Everglades City](assets/figures/CNN_Everglades_4520.png)
 
-<img src="assets/figures/Everglades_4520.png" alt="PS, RF, GP Everglades City" style="width:75%;"><br>
-<img src="assets/figures/CNN_Everglades_4520.png" alt="CNN Everglades City" style="width:75%;"><br>
-
-</div>
