@@ -112,7 +112,7 @@ Florida is a state particularly susceptible to sea level rise due to its low-lyi
 For visualizing the topography of Florida corresponded to different sea level rise amounts, we chose the following coastal locations: Sanibel Island, Miami, Fort Myers Beach, Audubon/Merritt Island, and Everglades City.
 
 <details>
-  <summary>Visualizing Sanibel Island and IPhones</summary>
+  <summary>Visualizing Sanibel Island and Boxplots</summary>
   These visualizations were created under the assumptions that all other greenhouse gases are at 2025 levels and the cumulative amount of carbon dioxide increases linearly from 2015 to 2100. It assumes in 2100 there will be 4520 gigatons of carbon dioxide.
 
   <div style="height: 0.5em;"></div>
