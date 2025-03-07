@@ -30,6 +30,18 @@ title: SeeRise 🌊
     </button>
 </a>
 
+<a href="https://zoeludena.github.io/SeeRiseWebsite/assets/SeeRise_Paper.pdf" target="_blank">
+    <button style="background-color: #3498db; color: white; border: none; padding: 10px 20px; 
+                border-radius: 8px; font-size: 16px; cursor: pointer; transition: 0.3s; 
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);"
+            onmouseover="this.style.backgroundColor='#2980b9'; this.style.transform='scale(1.05)';" 
+            onmouseout="this.style.backgroundColor='#3498db'; this.style.transform='scale(1)';"
+            onmousedown="this.style.backgroundColor='#1f669a'; this.style.transform='scale(0.95)';"
+            onmouseup="this.style.backgroundColor='#2980b9'; this.style.transform='scale(1.05)';">
+        Poster
+    </button>
+</a>
+
 </div>
 
 <p><br></p>
