@@ -148,20 +148,37 @@ As we can see from the plot above, the Pattern Scaling, Gaussian Process, and Ra
 
 <div style="height: 0.5em;"></div>
 
+<details>
+  <summary>Click for Pattern Scaling:</summary>
 
-<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_ps_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+  <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_ps_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
+<div style="height: 0.5em;"></div>
+
+<details>
+  <summary>Click for Gaussian Processing:</summary>
+
+<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_gp_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+
+<div style="height: 0.5em;"></div>
+
+<details>
+  <summary>Click for Random Forest:</summary>
 
 <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_rf_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
+<div style="height: 0.5em;"></div>
 
-<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_gp_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+<details>
+  <summary>Click for CNN-LTSM:</summary>
 
 <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_cnn_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
 <div style="height: 0.5em;"></div>
 
 </details>
+
+<div style="height: 0.5em;"></div>
 
 ### Florida Sea Level Rise
 
