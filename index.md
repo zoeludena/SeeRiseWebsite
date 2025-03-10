@@ -138,7 +138,7 @@ Since our sea level rise model requires a trajectory of TAS, thus a trajectory o
 As we can see from the plot above, the Pattern Scaling, Gaussian Process, and Random Forest emulators perform about equally well when compared to the expected sea level rise. Looking at the table, they are under-predicting by about the size of a peanut 🥜 (20 mm) or an inch (25 mm). The CNN-LTSM model performs the worst. The measurement is off from the expected value by about a standard playing card's length 🃏 (120 mm).
 
 <details>
-  <summary>Click for Individual Emulator Plots VS Expected (SSP 245)</summary>
+  <summary><span style="color: darkblue;">Click for Individual Emulator Plots VS Expected (SSP 245)</span></summary>
 
   <div style="height: 0.5em;"></div>
 
@@ -188,7 +188,7 @@ Given an emission scenario and the temperature projections, we took the median o
   <div style="height: 0.5em;"></div>
 
 <details>
-  <summary>Click for Greenhouse Gas Values in 2025 (SSP 245)</summary>
+  <summary><span style="color: darkblue;">Click for Greenhouse Gas Values in 2025 (SSP 245)</span></summary>
 
 <div style="height: 0.5em;"></div>
   We performed Empirical Orthogonal Function (EOF) decomposition on Black Carbon (BC) and Sulfur Dioxide (SO₂). Methane (CH₄) is normalized where the maximum amount of methane is 0.8. Principal component time series are extracted to create five BC and SO₂ columns, each corresponding to one EOF mode's time series. The unit for the principal component BC and SO₂ is Tg/year (teragrams per year).
