@@ -216,9 +216,9 @@ Given an emission scenario and the temperature projections, we took the median o
 
 </details>
   <div style="height: 0.5em;"></div>
-<span style="color: darkblue;">
+
   Pattern Scaling, Gaussian Process, and Random Forest all have around the same median sea level rise (~0.5 meters). Their visualizations of Sanibel Island are the same!
-</span>
+
   <div style="text-align:center;">
     <img src="assets/figures/Sanibel_4520.png" alt="PS Sanibel Island" style="width:75%;"><br>
   </div>
@@ -251,16 +251,14 @@ Given an emission scenario and the temperature projections, we took the median o
 </details>
 
 <div style="height: 0.5em;"></div>
-<span style="color: darkblue;">
+
   The CNN-LTSM performed worse compared to the other three emulators and produced a different prediction:
-</span>
+
   <div style="text-align:center;">
     <img src="assets/figures/CNN_Sanibel_4520.png" alt="CNN Sanibel Island" style="width:75%;"><br>
   </div>
   <div style="height: 0.5em;"></div>
-  <span style="color: darkblue;">
 We believe the CNN performed the worse because we kept the other greenhouse gases constant. This means the CNN focused more on the linearly scaled carbon dioxide for sea level rise. That caused the CNN to look more linear than exponential.
-  </span>
 
   <details>
 <div style="height: 0.5em;"></div>
