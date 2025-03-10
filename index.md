@@ -57,7 +57,7 @@ The advent of sea level rise can have devastating consequences on coastal areas 
 <details>
   <summary><span style="color: darkblue;">What is a Shared Socioeconomic Pathway (SSP)?</span></summary>
 
-<div markdown="1">
+<div markdown="1" style="color: darkblue;">
   SSPs are scenarios used in climate research to describe different ways society might develop in the future. So... what affects greenhouse gas emissions and how vulnerable are we to climate change? They're narratives that combine social, economic, and technological trends without including the climate policies themselves — policies are added on top of SSPs in modeling.
 
   They're commonly used with climate models to predict possible futures for things like: Global temperature rise, sea level rise, extreme weather, and economic and social impacts.
@@ -80,7 +80,7 @@ We used four different emulators based on what we learned in the ClimateBench an
 <details>
   <summary>Learn about our emulators:</summary>
 
-<div markdown="1">
+<div markdown="1" style="color: darkblue;">
 1. We used a Pattern Scaling emulator. In the Rahmstorf paper they use linear regression trained on historical temperature and the difference between the predicted temperature and the average. This makes our pattern scaling emulator a fantastic one-to-one comparison.
 2. We used a Gaussian Process emulator. Climate systems are governed by complex, smooth, and highly nonlinear relationships, making Gaussian Process (GP) emulators well-suited for predicting future climate scenarios. Building on our previous research, we chose to utilize the original GP model from ClimateBench as a foundation for our work. This approach leverages the flexibility and uncertainty quantification capabilities of GPs to improve climate predictions.
 3. We used a Random Forest emulator. While decision trees capture non-linear relationships well, they tend to overfit. Random Forest mitigates this by averaging predictions, reducing variance, and enhancing robustness. This makes it ideal for climate model emulation, where multiple target variables require separate models.
@@ -196,7 +196,7 @@ Given an emission scenario and the temperature projections, we took the median o
 
   <div style="height: 0.5em;"></div>
 
-  <div markdown="1">
+  <div markdown="1" style="color: darkblue;">
 
 | Component               | Value     |
 |-------------------------|----------|
