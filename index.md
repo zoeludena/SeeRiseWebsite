@@ -211,7 +211,7 @@ Given an emission scenario and the temperature projections, we took the median o
 
   <div style="text-align:center;">
     <img src="assets/figures/CNN_Sanibel_4520.png" alt="CNN Sanibel Island" style="width:75%;"><br>
-
+  </div>
   <details>
   <summary>Click for CNN-LTSM Boxplot</summary>
   <div style="text-align:center;">
