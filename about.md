@@ -99,6 +99,8 @@ permalink: /team/
     <img src="https://zoeludena.github.io/SeeRiseWebsite/assets/team_pics/team.jpg" style="width:75%;"><br>
   </div>
 
+<div style="height: 0.5em;"></div>
+
 <details>
   <summary>Click for Contributions</summary>
 
