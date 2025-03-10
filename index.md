@@ -120,7 +120,7 @@ Finally, as a simple sanity check, we compare visually and quantitatively the pr
 
 ### Predicted Sea Level Rise
 
-For this paper, we compare our median predictions to the expected sea level rise under SSP 245. According to [NASA projections](https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool?type=global), the expected cumulative rise in sea level under SSP 245 between 2015 and 2100 will be 536.4 mm (± about 158 mm for the 66\% confidence interval) ---about the width a large pizza box. 
+For this paper, we compare our median predictions to the expected sea level rise under SSP 245. According to [NASA projections](https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool?type=global), the expected cumulative rise in sea level under SSP 245 between 2015 and 2100 will be 536.4 mm (± about 158 mm for the 66% confidence interval) ---about the width a large pizza box. 
 
 Since our sea level rise model requires a trajectory of TAS, thus a trajectory of $\text{CO}_2$ concentrations for predicting TAS using the emulators, we took the 2100 $\text{CO}_2$ concentration under SSP 245, around 4520 Gigatons, to linearly interpolate the trajectory from 2015 to 2100.
 
@@ -145,8 +145,6 @@ Florida is a state particularly susceptible to sea level rise due to its low-lyi
 
 For visualizing the topography of Florida, corresponding to different sea level rise amounts, we chose the following coastal locations: Sanibel Island, Miami, Fort Myers Beach, the space in between Audubon and Merritt Island, and Everglades City.
 
-<details>
-  <summary>Click to Visualize Sanibel Island</summary>
 Given an emission scenario and the temperature projections, we took the median of predicted sea level rise in the year 2100 and determined how much of the land would be submerged. For this paper, we focus on SSP 245 and use the concentration of carbon dioxide in 2100, which is about 4520 Gigatons, as the input.
 
   <div style="height: 0.5em;"></div>
@@ -218,7 +216,6 @@ Given an emission scenario and the temperature projections, we took the median o
   <div style="height: 0.5em;"></div>
 </details>
 
-</details>
 <div style="height: 0.5em;"></div>
 
 In our visualizations we took the median amount of sea level rise and determined how much land would be submerged. For this paper we used the cumulative amount of carbon dioxide in 2100 for SSP 245, which is about 4520 Gigatons of carbon dioxide.
