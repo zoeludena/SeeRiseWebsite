@@ -128,32 +128,59 @@ For visualizing the topography of Florida corresponded to different sea level ri
   <summary>Visualizing Sanibel Island and Boxplots</summary>
   These visualizations were created under the assumptions that all other greenhouse gases are at 2025 levels and the cumulative amount of carbon dioxide increases linearly from 2015 to 2100. It assumes in 2100 there will be 4520 gigatons of carbon dioxide.
 
+<details>
+  <summary>Greenhouse Gas Values in 2025 (SSP 245)</summary>
+  We performed Empirical Orthogonal Function (EOF) decomposition on Black Carbon (BC) and Sulfur Dioxide ($\text{SO}_2$). Methane (CH₄) is normalized where the maximum amount of methane is $0.8$. Principal component time series are extracted to create five BC and $\text{SO}_2$ columns, each corresponding to one EOF mode's time series. The unit for the principal component BC and $\text{SO}_2$ is Tg/year (teragrams per year).
+
+| Component               | Value     |
+|-------------------------|----------|
+| CH₄                    | 0.474023  |
+| pseudo_pcs, BC_0       | 1.747441  |
+| pseudo_pcs, BC_1       | 1.498689  |
+| pseudo_pcs, BC_2       | -0.807297 |
+| pseudo_pcs, BC_3       | 3.507481  |
+| pseudo_pcs, BC_4       | 1.282007  |
+| pseudo_pcs, SO2_0      | 1.087772  |
+| pseudo_pcs, SO2_1      | 1.462824  |
+| pseudo_pcs, SO2_2      | 1.427859  |
+| pseudo_pcs, SO2_3      | 1.940259  |
+| pseudo_pcs, SO2_4      | -1.740802 |
+
+</details>
   <div style="height: 0.5em;"></div>
 
-  Pattern Scaling, Gaussian Process, and Random Forest all have the same median sea level rise. Their visualizations of Sanibel Island are the same!
+  Pattern Scaling, Gaussian Process, and Random Forest all have around the same median sea level rise (~0.5 meters). Their visualizations of Sanibel Island are the same!
 
   <div style="text-align:center;">
     <img src="assets/figures/Sanibel_4520.png" alt="PS Sanibel Island" style="width:75%;"><br>
   </div>
   <div style="height: 0.5em;"></div>
 
-  Pattern Scaling Boxplot:
+  <details>
+  <summary>Click for Pattern Scaling Boxplot</summary>
   <div style="text-align:center;">
       <img src="assets/figures/ps_boxplot_4520.png" alt="PS Boxplot" style="width:75%;">
   </div>
   <div style="height: 0.5em;"></div>
 
-  Gaussian Process Boxplot:
+</details>
+
+  <details>
+  <summary>Click for Gaussian Process Boxplot</summary>
   <div style="text-align:center;">
       <img src="assets/figures/gp_boxplot_4520.png" alt="GP Boxplot" style="width:75%;">
   </div>
   <div style="height: 0.5em;"></div>
 
-  Random Forest Boxplot:
+</details>
+
+  <details>
+  <summary>Click for Random Forest Boxplot</summary>
   <div style="text-align:center;">
       <img src="assets/figures/rf_boxplot_4520.png" alt="GP Boxplot" style="width:75%;">
   </div>
   <div style="height: 0.5em;"></div>
+</details>
 
   The CNN-LTSM performed worse compared to the other three emulators and produced a different prediction:
 
