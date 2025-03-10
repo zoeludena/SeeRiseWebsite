@@ -133,7 +133,7 @@ permalink: /team/
 **Eric Pham:**  
 - Refactored the Pattern Scaling Emulator from the ClimateBench to take in cumulative CO₂ emissions as input.  
 - Found DEM data source. Developed code to create DEM visualizations on the [SeeRise application](https://seerise-floridaapp.streamlit.app/). Also added/edited commentary and explanations on the SeeRise application.  
-- Implemented pipeline to re-create Rahmstorf's paper [@rahmstorf2007].  
+- Implemented pipeline to re-create Rahmstorf's paper.  
   - Using Rahmstorf's 2007 semi-empirical model of sea level rise, created regression models trained on different quantile projections from NASA.  
   - Also trained on historical data to ensure that the Rahmstorf method is an appropriate way of approximating sea level rise.  
 - Modified NASA's expected value to match the years we used (2015-2100). Preprocessed the NASA datasets for a usable format for the Rahmstorf model files.  
