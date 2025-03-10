@@ -103,6 +103,7 @@ permalink: /team/
   <summary>Click for Contributions</summary>
 
 <div markdown="1">
+    
 **Zoe Ludena:**  
 - Re-created the Gaussian Process Emulator from the ClimateBench.  
 - Re-created the CNN-LSTM Emulator from the ClimateBench.  
