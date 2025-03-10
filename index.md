@@ -92,7 +92,7 @@ We used four different emulators based on what we learned in the ClimateBench an
 
 
 
-Given a final $\text{CO}_2$ concentration 2100, we interpolated the trajectory of atmospheric $\text{CO}_2$ concentration by linearly increasing/decreasing the carbon dioxide amount from 2015 to 2100, assuming equal step every year, to predict the yearly surface air temperatures. Linear interpolation was chosen because it does not assume overly complicated models and is applicable given any valid 2100 $\text{CO}_2$ concentration. The predicted series of temperatures was then used as an input for our sea level model.
+Given a final CO2 concentration 2100, we interpolated the trajectory of atmospheric CO2 concentration by linearly increasing/decreasing the carbon dioxide amount from 2015 to 2100, assuming equal step every year, to predict the yearly surface air temperatures. Linear interpolation was chosen because it does not assume overly complicated models and is applicable given any valid 2100 CO2 concentration. The predicted series of temperatures was then used as an input for our sea level model.
 
 ### Sea Level Rise Projection
 
@@ -122,7 +122,7 @@ Finally, as a simple sanity check, we compare visually and quantitatively the pr
 
 For this paper, we compare our median predictions to the expected sea level rise under SSP 245. According to [NASA projections](https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool?type=global), the expected cumulative rise in sea level under SSP 245 between 2015 and 2100 will be 536.4 mm (± about 158 mm for the 66% confidence interval) ---about the width a large pizza box. 
 
-Since our sea level rise model requires a trajectory of TAS, thus a trajectory of $\text{CO}_2$ concentrations for predicting TAS using the emulators, we took the 2100 $\text{CO}_2$ concentration under SSP 245, around 4520 Gigatons, to linearly interpolate the trajectory from 2015 to 2100.
+Since our sea level rise model requires a trajectory of TAS, thus a trajectory of CO2 concentrations for predicting TAS using the emulators, we took the 2100 CO2 concentration under SSP 245, around 4520 Gigatons, to linearly interpolate the trajectory from 2015 to 2100.
 
 **Prediction Error Comparison**
 
@@ -193,7 +193,7 @@ Given an emission scenario and the temperature projections, we took the median o
   <summary>Click for Greenhouse Gas Values in 2025 (SSP 245)</summary>
 
 <div style="height: 0.5em;"></div>
-  We performed Empirical Orthogonal Function (EOF) decomposition on Black Carbon (BC) and Sulfur Dioxide (\\(\text{SO}_2\\)). Methane (CH₄) is normalized where the maximum amount of methane is $0.8$. Principal component time series are extracted to create five BC and \\(\text{SO}_2\\) columns, each corresponding to one EOF mode's time series. The unit for the principal component BC and \\(text{SO}_2\\) is Tg/year (teragrams per year).
+  We performed Empirical Orthogonal Function (EOF) decomposition on Black Carbon (BC) and Sulfur Dioxide (SO₂). Methane (CH₄) is normalized where the maximum amount of methane is 0.8. Principal component time series are extracted to create five BC and SO₂ columns, each corresponding to one EOF mode's time series. The unit for the principal component BC and SO₂ is Tg/year (teragrams per year).
 
   <div style="height: 0.5em;"></div>
 
@@ -282,7 +282,7 @@ You can visualize interactive changes on our [application](https://zoeludena.git
 
 Similar to past work, our sea level rise model using Rahmstorf’s approach is prone to over-predicting when evaluated against the true expected projections. The model assumes a near-linear relationship between temperature and sea level rise rate, based on 20th-century observations. However, it is important to note that real-world ice sheet dynamics may not respond linearly to temperature changes, which can affect the true rate of sea level rise in the future. 
 
-On the other hand, our model suffers from under-prediction when only changing $\text{CO}_2$ year to year and keeping the other greenhouse gases constant. Future work can be done on scaling all other greenhouse gases input appropriately, which would likely produce more accurate temperature values and sea level rise predictions.
+On the other hand, our model suffers from under-prediction when only changing CO2 year to year and keeping the other greenhouse gases constant. Future work can be done on scaling all other greenhouse gases input appropriately, which would likely produce more accurate temperature values and sea level rise predictions.
 
 ## Conclusion
 
