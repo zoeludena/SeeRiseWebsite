@@ -142,43 +142,40 @@ As we can see from the plot above, the Pattern Scaling, Gaussian Process, and Ra
 <details>
   <summary>Click for Individual Emulator Plots VS Expected (SSP 245)</summary>
 
-<div style="height: 0.5em;"></div>
+  <div style="height: 0.5em;"></div>
 
-  These plots show the emulators' uncertainty and median prediction assuming there will be 4520 gigatons of cumulative carbon dioxide in 2100 (according to SSP 245). The expected line is a modified NASA's sea level rise median prediction. The modification is changing the sea level rise to account from 2015 to 2100.
+  These plots show the emulators' uncertainty and median prediction assuming there will be 4520 gigatons of cumulative carbon dioxide in 2100 (according to SSP 245). The expected line is a modified NASA sea level rise median prediction. The modification accounts for sea level rise from 2015 to 2100.
 
-<div style="height: 0.5em;"></div>
+  <div style="height: 0.5em;"></div>
 
-<details>
-  <summary>Click for Pattern Scaling:</summary>
+  <details>
+    <summary>Click for Pattern Scaling:</summary>
+    <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_ps_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+  </details>
 
-  <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_ps_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+  <div style="height: 0.5em;"></div>
 
-<div style="height: 0.5em;"></div>
+  <details>
+    <summary>Click for Gaussian Processing:</summary>
+    <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_gp_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+  </details>
 
-<details>
-  <summary>Click for Gaussian Processing:</summary>
+  <div style="height: 0.5em;"></div>
 
-<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_gp_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+  <details>
+    <summary>Click for Random Forest:</summary>
+    <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_rf_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+  </details>
 
-<div style="height: 0.5em;"></div>
+  <div style="height: 0.5em;"></div>
 
-<details>
-  <summary>Click for Random Forest:</summary>
-
-<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_rf_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
-
-<div style="height: 0.5em;"></div>
-
-<details>
-  <summary>Click for CNN-LTSM:</summary>
-
-<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_cnn_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
-
-<div style="height: 0.5em;"></div>
+  <details>
+    <summary>Click for CNN-LSTM:</summary>
+    <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_cnn_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+  </details>
 
 </details>
 
-</details>
 
 <div style="height: 0.5em;"></div>
 
