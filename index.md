@@ -137,7 +137,18 @@ Since our sea level rise model requires a trajectory of TAS, thus a trajectory o
 
 <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_emulator_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
-As we can see from Figure \ref{fig:2025_fixed_emulator_preds}, the Pattern Scaling, Gaussian Process, and Random Forest emulators perform about equally well when compared to the expected sea level rise. Looking at Table \ref{tab:prediction_comparison}, they are under-predicting by about the size of a peanut 🥜 (20 mm) or an inch (25 mm). The CNN-LTSM model performs the worst. The measurement is off from the expected value by about a standard playing card's length 🃏 (120 mm).
+As we can see from the plot above, the Pattern Scaling, Gaussian Process, and Random Forest emulators perform about equally well when compared to the expected sea level rise. Looking at the table, they are under-predicting by about the size of a peanut 🥜 (20 mm) or an inch (25 mm). The CNN-LTSM model performs the worst. The measurement is off from the expected value by about a standard playing card's length 🃏 (120 mm).
+
+<details>
+  <summary>Click for Individual Emulator Plots VS Expected (SSP 245)</summary>
+
+<div style="height: 0.5em;"></div>
+
+TODO
+
+<div style="height: 0.5em;"></div>
+
+</details>
 
 ### Florida Sea Level Rise
 
