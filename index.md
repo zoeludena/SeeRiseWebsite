@@ -147,28 +147,28 @@ As we can see from the plot above, the Pattern Scaling, Gaussian Process, and Ra
   <div style="height: 0.5em;"></div>
 
   <details>
-    <summary>Click for Pattern Scaling:</summary>
+    <summary><span style="color: darkblue;">Click for Pattern Scaling:</span></summary>
     <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_ps_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
   </details>
 
   <div style="height: 0.5em;"></div>
 
   <details>
-    <summary>Click for Gaussian Processing:</summary>
+    <summary><span style="color: darkblue;">Click for Gaussian Processing:</span></summary>
     <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_gp_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
   </details>
 
   <div style="height: 0.5em;"></div>
 
   <details>
-    <summary>Click for Random Forest:</summary>
+    <summary><span style="color: darkblue;">Click for Random Forest:</span></summary>
     <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_rf_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
   </details>
 
   <div style="height: 0.5em;"></div>
 
   <details>
-    <summary>Click for CNN-LSTM:</summary>
+    <summary><span style="color: darkblue;">Click for CNN-LSTM:</span></summary>
     <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_cnn_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
   </details>
 
@@ -225,7 +225,7 @@ Given an emission scenario and the temperature projections, we took the median o
   <div style="height: 0.5em;"></div>
 
   <details>
-  <summary>Click for Pattern Scaling Boxplot</summary>
+  <summary><span style="color: darkblue;">Click for Pattern Scaling Boxplot</span></summary>
   <div style="text-align:center;">
       <img src="assets/figures/ps_boxplot_4520.png" alt="PS Boxplot" style="width:75%;">
   </div>
@@ -234,7 +234,7 @@ Given an emission scenario and the temperature projections, we took the median o
 </details>
 
   <details>
-  <summary>Click for Gaussian Process Boxplot</summary>
+  <summary><span style="color: darkblue;">Click for Gaussian Process Boxplot</span></summary>
   <div style="text-align:center;">
       <img src="assets/figures/gp_boxplot_4520.png" alt="GP Boxplot" style="width:75%;">
   </div>
@@ -243,7 +243,7 @@ Given an emission scenario and the temperature projections, we took the median o
 </details>
 
   <details>
-  <summary>Click for Random Forest Boxplot</summary>
+  <summary><span style="color: darkblue;">Click for Random Forest Boxplot</span></summary>
   <div style="text-align:center;">
       <img src="assets/figures/rf_boxplot_4520.png" alt="GP Boxplot" style="width:75%;">
   </div>
@@ -264,7 +264,7 @@ We believe the CNN performed the worse because we kept the other greenhouse gase
 <div style="height: 0.5em;"></div>
 
       
-  <summary>Click for CNN-LTSM Boxplot</summary>
+  <summary><span style="color: darkblue;">Click for CNN-LTSM Boxplot</span></summary>
   <div style="text-align:center;">
       <img src="assets/figures/cnn_boxplot_4520.png" alt="CNN Boxplot" style="width:75%;">
   </div>
