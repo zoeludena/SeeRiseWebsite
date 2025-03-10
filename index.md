@@ -193,7 +193,7 @@ Given an emission scenario and the temperature projections, we took the median o
   <summary>Click for Greenhouse Gas Values in 2025 (SSP 245)</summary>
 
 <div style="height: 0.5em;"></div>
-  We performed Empirical Orthogonal Function (EOF) decomposition on Black Carbon (BC) and Sulfur Dioxide ($\text{SO}_2$). Methane (CH₄) is normalized where the maximum amount of methane is $0.8$. Principal component time series are extracted to create five BC and $\text{SO}_2$ columns, each corresponding to one EOF mode's time series. The unit for the principal component BC and $\text{SO}_2$ is Tg/year (teragrams per year).
+  We performed Empirical Orthogonal Function (EOF) decomposition on Black Carbon (BC) and Sulfur Dioxide (\\(\text{SO}_2\\)). Methane (CH₄) is normalized where the maximum amount of methane is $0.8$. Principal component time series are extracted to create five BC and \\(\text{SO}_2\\) columns, each corresponding to one EOF mode's time series. The unit for the principal component BC and \\(text{SO}_2\\) is Tg/year (teragrams per year).
 
   <div style="height: 0.5em;"></div>
 
