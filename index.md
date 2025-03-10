@@ -90,8 +90,6 @@ We used four different emulators based on what we learned in the ClimateBench an
 
 <div style="height: 0.5em;"></div>
 
-
-
 Given a final CO2 concentration 2100, we interpolated the trajectory of atmospheric CO2 concentration by linearly increasing/decreasing the carbon dioxide amount from 2015 to 2100, assuming equal step every year, to predict the yearly surface air temperatures. Linear interpolation was chosen because it does not assume overly complicated models and is applicable given any valid 2100 CO2 concentration. The predicted series of temperatures was then used as an input for our sea level model.
 
 ### Sea Level Rise Projection
