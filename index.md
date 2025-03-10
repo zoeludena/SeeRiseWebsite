@@ -118,15 +118,36 @@ Finally, as a simple sanity check, we compare visually and quantitatively the pr
 
 ## Results
 
+### Predicted Sea Level Rise
+
+For this paper, we compare our median predictions to the expected sea level rise under SSP 245. According to [NASA projections](https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool?type=global), the expected cumulative rise in sea level under SSP 245 between 2015 and 2100 will be 536.4 mm (± about 158 mm for the 66\% confidence interval) ---about the width a large pizza box. 
+
+Since our sea level rise model requires a trajectory of TAS, thus a trajectory of $\text{CO}_2$ concentrations for predicting TAS using the emulators, we took the 2100 $\text{CO}_2$ concentration under SSP 245, around 4520 Gigatons, to linearly interpolate the trajectory from 2015 to 2100.
+
+**Prediction Error Comparison**
+
+| Emulator         | Predicted (mm) | NASA Predicted - Emulator Predicted (mm) |
+|-----------------|---------------|------------------------|
+| Pattern Scaling | 513.6         | 22.8                   |
+| Gaussian Process | 511.6         | 24.8                   |
+| Random Forest   | 511.3         | 25.1                   |
+| CNN-LSTM        | 417.0         | 119.4                  |
+
+**Comparing Emulators with NASA Keeping Greenhouse Gases Fixed at 2025**
+
+<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_emulator_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+
+As we can see from Figure \ref{fig:2025_fixed_emulator_preds}, the Pattern Scaling, Gaussian Process, and Random Forest emulators perform about equally well when compared to the expected sea level rise. Looking at Table \ref{tab:prediction_comparison}, they are under-predicting by about the size of a peanut 🥜 (20 mm) or an inch (25 mm). The CNN-LTSM model performs the worst. The measurement is off from the expected value by about a standard playing card's length 🃏 (120 mm).
+
 ### Florida Sea Level Rise
 
-Florida is a state particularly susceptible to sea level rise due to its low-lying topography and extensive coastline. To visualize the rise in sea level, we used digital elevation models (DEM). DEMs are a representation of the bare ground topographic surface of the Earth excluding trees, buildings, and any other surface objects. They are computed via LiDAR data (which is essentially a 3D scan of the Earth's surface), algorithms, and other data sources are used to construct the true elevation of just the land alone.
+Florida is a state particularly susceptible to sea level rise due to its low-lying topography and extensive coastline. To visualize the rise in sea level and its impact on Florida, we made use of digital elevation models (DEM). DEMs are a representation of the bare ground topographic surface of the Earth, excluding trees, buildings, and any other surface objects. To generate DEMs, LiDAR data (essentially 3D scans of the Earth's surface) is taken and processed using algorithms,  supplemented with other data sources, to construct the true elevation of the land surface.
 
-For visualizing the topography of Florida corresponded to different sea level rise amounts, we chose the following coastal locations: Sanibel Island, Miami, Fort Myers Beach, Audubon/Merritt Island, and Everglades City.
+For visualizing the topography of Florida, corresponding to different sea level rise amounts, we chose the following coastal locations: Sanibel Island, Miami, Fort Myers Beach, the space in between Audubon and Merritt Island, and Everglades City.
 
 <details>
   <summary>Click to Visualize Sanibel Island</summary>
-  These visualizations were created under the assumptions that all other greenhouse gases are at 2025 levels and the cumulative amount of carbon dioxide increases linearly from 2015 to 2100. It assumes in 2100 there will be 4520 gigatons of carbon dioxide.
+Given an emission scenario and the temperature projections, we took the median of predicted sea level rise in the year 2100 and determined how much of the land would be submerged. For this paper, we focus on SSP 245 and use the concentration of carbon dioxide in 2100, which is about 4520 Gigatons, as the input.
 
   <div style="height: 0.5em;"></div>
 
@@ -190,7 +211,7 @@ For visualizing the topography of Florida corresponded to different sea level ri
     <img src="assets/figures/CNN_Sanibel_4520.png" alt="CNN Sanibel Island" style="width:75%;"><br>
 
   <details>
-  <summary>Click for Random Forest Boxplot</summary>
+  <summary>Click for CNN-LTSM Boxplot</summary>
   <div style="text-align:center;">
       <img src="assets/figures/cnn_boxplot_4520.png" alt="CNN Boxplot" style="width:75%;">
   </div>
@@ -204,38 +225,17 @@ In our visualizations we took the median amount of sea level rise and determined
 
 You can visualize interactive changes on our [application](https://zoeludena.github.io/SeeRiseWebsite/app/) or look at [figures](https://zoeludena.github.io/SeeRiseWebsite/figures/). Inside of our application you can also visualize other DEM files!
 
-### Expected Sea Level Rise
+## Discussion
 
-According to [NASA projections](https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool?type=global), the expected cumulative rise in sea level between 2015-2100 would be 536.4 mm. We found this data from NASA's Sea Level Projection tool, modified for our year range (2015-2100).
+Similar to past work, our sea level rise model using Rahmstorf’s approach is prone to over-predicting when evaluated against the true expected projections. The model assumes a near-linear relationship between temperature and sea level rise rate, based on 20th-century observations. However, it is important to note that real-world ice sheet dynamics may not respond linearly to temperature changes, which can affect the true rate of sea level rise in the future. 
 
-NASA includes sea level rise starting from 2011, which is why their number on the website (556 mm) is different than ours.
+On the other hand, our model suffers from under-prediction when only changing $\text{CO}_2$ year to year and keeping the other greenhouse gases constant. Future work can be done on scaling all other greenhouse gases input appropriately, which would likely produce more accurate temperature values and sea level rise predictions.
 
-### Predicted Sea Level Rise
+## Conclusion
 
-Our predictions were calculated by keeping the methane, sulfur dioxide, and black carbon at 2025's values for SSP 245. We then linearly increased the carbon dioxide from 2015 to 2100, where it ended at 4520 Gigatons of carbon dioxide.
+Inspired by the issue of sea level rise due to global warming, we worked on modeling projected sea level rise for the future up until 2100, and made use of climate model emulators as a first step for temperature inputs into the sea level projection model. The sea level rise projection model follows a semi-empirical differential equation approach from Rahmstorf, in which we fitted a linear model and obtained a rate of sea level change, then integrated to get the total sea level rise. We also explored the impact of sea level rise on one particularly vulnerable region, Florida, by utilizing DEM data and visualizing the change in local topography and coastline following different amounts of sea level rise. 
 
-In the Rahmstorf paper they use linear regression trained on historical temperature and the difference between the predicted temperature and the average. This makes our pattern scaling emulator a fantastic one-to-one comparison when looking at predicted sea level rise. For the pattern scaling to sea level rise pipeline, it is then thought of as using cumulative carbon dioxide to compute air surface temperature (TAS), which is then used to calculate the rate of sea level rise.
-
-**Prediction Error Comparison**
-
-| Emulator         | Predicted (mm) | 536.4 - Predicted (mm) |
-|-----------------|---------------|------------------------|
-| Pattern Scaling | 513.6         | 22.8                   |
-| Gaussian Process | 511.6         | 24.8                   |
-| Random Forest   | 511.3         | 25.1                   |
-| CNN-LSTM        | 417.0         | 119.4                  |
-
-**Comparing Emulators with NASA Keeping Greenhouse Gases Fixed at 2025**
-
-<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_emulator_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
-
-### Validation Set Sea Level Rise Analysis
-
-As we can see, the Pattern Scaling, Gaussian Process, and Random Forest emulators perform about equally well. They are under predicting by the size of a peanut (20 mm) 🥜 or about an inch (25 mm).
-
-The CNN-LTSM model performs the worst. The measurement is off by about a standard playing card's length (120 mm) 🃏.
-
-This under prediction is caused because we decided to keep the other greenhouse gases constant. The values are from SSP245 at the year 2025. If we scaled our other greenhouse gases input appropriately, the emulators would give more accurate TAS values which in turn would lead to greater performance for our sea level rise regression.
+Overall, our work demonstrated the effectiveness of using machine learning and statistical models alongside the Rahmstorf differential equation approach to achieve fairly sound results in predicting temperature and sea level rise. The interactive visualizations were created in the hope to make understanding the impacts of sea level rise more intuitive and accessible for potential audiences and to raise further awareness of the issue of global warming and sea level rise.
 
 <script type="text/javascript" async 
   src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
