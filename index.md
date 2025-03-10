@@ -78,7 +78,7 @@ Our first objective was to tune the hyperparameter for each emulator model. The 
 We used four different emulators based on what we learned in the ClimateBench and our previous research, [ResearchOnClimate](https://github.com/zoeludena/ResearchOnClimate/blob/main/Utilizing_Emulators_to_Explore_the_Climate_Model_Parameter_Space.pdf). We used a Pattern Scaling emulator, a Gaussian Process emulator, a Random Forest emulator, and a CNN-LTSM emulator.
 
 <details>
-  <summary>Learn about our emulators:</summary>
+  <summary><span style="color: darkblue;">Learn about our emulators:</span></summary>
 
 <div markdown="1" style="color: darkblue;">
 1. We used a Pattern Scaling emulator. In the Rahmstorf paper they use linear regression trained on historical temperature and the difference between the predicted temperature and the average. This makes our pattern scaling emulator a fantastic one-to-one comparison.
