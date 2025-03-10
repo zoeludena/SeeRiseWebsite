@@ -197,6 +197,8 @@ Given an emission scenario and the temperature projections, we took the median o
 
   <div style="height: 0.5em;"></div>
 
+  <div markdown="1">
+
 | Component               | Value     |
 |-------------------------|----------|
 | CH₄                    | 0.474023  |
@@ -210,6 +212,8 @@ Given an emission scenario and the temperature projections, we took the median o
 | pseudo_pcs, SO2_2      | 1.427859  |
 | pseudo_pcs, SO2_3      | 1.940259  |
 | pseudo_pcs, SO2_4      | -1.740802 |
+
+</div>
 
 </details>
   <div style="height: 0.5em;"></div>
