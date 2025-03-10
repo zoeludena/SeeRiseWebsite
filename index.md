@@ -38,7 +38,7 @@ title: SeeRise 🌊
                 onmouseout="this.style.backgroundColor='#6C7A89'; this.style.transform='scale(1)';"
                 onmousedown="this.style.backgroundColor='#485563'; this.style.transform='scale(0.95)';"
                 onmouseup="this.style.backgroundColor='#5A6978'; this.style.transform='scale(1.05)';">
-        💼Poster
+        🪧Poster
     </button>
 </a>
 
