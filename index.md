@@ -178,6 +178,8 @@ As we can see from the plot above, the Pattern Scaling, Gaussian Process, and Ra
 
 </details>
 
+</details>
+
 <div style="height: 0.5em;"></div>
 
 ### Florida Sea Level Rise
