@@ -141,9 +141,9 @@ As we can see from the plot above, the Pattern Scaling, Gaussian Process, and Ra
   <summary><span style="color: darkblue;">Click for Individual Emulator Plots VS Expected (SSP 245)</span></summary>
 
   <div style="height: 0.5em;"></div>
-
+<span style="color: darkblue;">
   These plots show the emulators' uncertainty and median prediction assuming there will be 4520 gigatons of cumulative carbon dioxide in 2100 (according to SSP 245). The expected line is a modified NASA sea level rise median prediction. The modification accounts for sea level rise from 2015 to 2100.
-
+</span>
   <div style="height: 0.5em;"></div>
 
   <details>
@@ -191,7 +191,8 @@ Given an emission scenario and the temperature projections, we took the median o
   <summary><span style="color: darkblue;">Click for Greenhouse Gas Values in 2025 (SSP 245)</span></summary>
 
 <div style="height: 0.5em;"></div>
-  We performed Empirical Orthogonal Function (EOF) decomposition on Black Carbon (BC) and Sulfur Dioxide (SO₂). Methane (CH₄) is normalized where the maximum amount of methane is 0.8. Principal component time series are extracted to create five BC and SO₂ columns, each corresponding to one EOF mode's time series. The unit for the principal component BC and SO₂ is Tg/year (teragrams per year).
+<span style="color: darkblue;">
+  We performed Empirical Orthogonal Function (EOF) decomposition on Black Carbon (BC) and Sulfur Dioxide (SO₂). Methane (CH₄) is normalized where the maximum amount of methane is 0.8. Principal component time series are extracted to create five BC and SO₂ columns, each corresponding to one EOF mode's time series. The unit for the principal component BC and SO₂ is Tg/year (teragrams per year). </span>
 
   <div style="height: 0.5em;"></div>
 
@@ -215,9 +216,9 @@ Given an emission scenario and the temperature projections, we took the median o
 
 </details>
   <div style="height: 0.5em;"></div>
-
+<span style="color: darkblue;">
   Pattern Scaling, Gaussian Process, and Random Forest all have around the same median sea level rise (~0.5 meters). Their visualizations of Sanibel Island are the same!
-
+</span>
   <div style="text-align:center;">
     <img src="assets/figures/Sanibel_4520.png" alt="PS Sanibel Island" style="width:75%;"><br>
   </div>
@@ -250,14 +251,16 @@ Given an emission scenario and the temperature projections, we took the median o
 </details>
 
 <div style="height: 0.5em;"></div>
-
+<span style="color: darkblue;">
   The CNN-LTSM performed worse compared to the other three emulators and produced a different prediction:
-
+</span>
   <div style="text-align:center;">
     <img src="assets/figures/CNN_Sanibel_4520.png" alt="CNN Sanibel Island" style="width:75%;"><br>
   </div>
   <div style="height: 0.5em;"></div>
+  <span style="color: darkblue;">
 We believe the CNN performed the worse because we kept the other greenhouse gases constant. This means the CNN focused more on the linearly scaled carbon dioxide for sea level rise. That caused the CNN to look more linear than exponential.
+  </span>
 
   <details>
 <div style="height: 0.5em;"></div>
