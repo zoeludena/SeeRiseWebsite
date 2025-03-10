@@ -144,7 +144,20 @@ As we can see from the plot above, the Pattern Scaling, Gaussian Process, and Ra
 
 <div style="height: 0.5em;"></div>
 
-TODO
+  These plots show the emulators' uncertainty and median prediction assuming there will be 4520 gigatons of cumulative carbon dioxide in 2100 (according to SSP 245). The expected line is a modified NASA's sea level rise median prediction. The modification is changing the sea level rise to account from 2015 to 2100.
+
+<div style="height: 0.5em;"></div>
+
+
+<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_ps_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+
+
+<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_rf_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+
+
+<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_gp_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+
+<iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_cnn_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
 <div style="height: 0.5em;"></div>
 
