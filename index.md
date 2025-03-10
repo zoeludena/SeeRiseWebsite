@@ -55,7 +55,7 @@ The advent of sea level rise can have devastating consequences on coastal areas 
 ### Climate Model Emulators
 
 <details>
-  <summary>What is a Shared Socioeconomic Pathway (SSP)?</summary>
+  <summary><span style="color: darkblue;">What is a Shared Socioeconomic Pathway (SSP)?</span></summary>
 
 <div markdown="1">
   SSPs are scenarios used in climate research to describe different ways society might develop in the future. So... what affects greenhouse gas emissions and how vulnerable are we to climate change? They're narratives that combine social, economic, and technological trends without including the climate policies themselves — policies are added on top of SSPs in modeling.
