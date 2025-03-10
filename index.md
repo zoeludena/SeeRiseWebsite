@@ -254,10 +254,10 @@ Given an emission scenario and the temperature projections, we took the median o
   <div style="text-align:center;">
     <img src="assets/figures/CNN_Sanibel_4520.png" alt="CNN Sanibel Island" style="width:75%;"><br>
   </div>
-  <details>
-
-<div style="height: 0.5em;"></div>
+  <div style="height: 0.5em;"></div>
 We believe the CNN performed the worse because we kept the other greenhouse gases constant. This means the CNN focused more on the linearly scaled carbon dioxide for sea level rise. That caused the CNN to look more linear than exponential.
+
+  <details>
 <div style="height: 0.5em;"></div>
 
       
