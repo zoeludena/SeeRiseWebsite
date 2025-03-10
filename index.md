@@ -207,12 +207,20 @@ Given an emission scenario and the temperature projections, we took the median o
   <div style="height: 0.5em;"></div>
 </details>
 
+<div style="height: 0.5em;"></div>
+
   The CNN-LTSM performed worse compared to the other three emulators and produced a different prediction:
 
   <div style="text-align:center;">
     <img src="assets/figures/CNN_Sanibel_4520.png" alt="CNN Sanibel Island" style="width:75%;"><br>
   </div>
   <details>
+
+<div style="height: 0.5em;"></div>
+We believe the CNN performed the worse because we kept the other greenhouse gases constant. This means the CNN focused more on the linearly scaled carbon dioxide for sea level rise. That caused the CNN to look more linear than exponential.
+<div style="height: 0.5em;"></div>
+
+      
   <summary>Click for CNN-LTSM Boxplot</summary>
   <div style="text-align:center;">
       <img src="assets/figures/cnn_boxplot_4520.png" alt="CNN Boxplot" style="width:75%;">
