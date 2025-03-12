@@ -217,7 +217,7 @@ Given an emission scenario and the temperature projections, we took the median o
 </details>
   <div style="height: 0.5em;"></div>
 
-  Pattern Scaling, Gaussian Process, and Random Forest all have around the same median sea level rise (~0.5 meters). Their visualizations of Sanibel Island are the same!
+  Pattern Scaling, Gaussian Process, and Random Forest all have around the same median predicted sea level rise (~0.5 meters). Their visualizations of Sanibel Island are the same!
 
   <div style="text-align:center;">
     <img src="assets/figures/Sanibel_4520.png" alt="PS Sanibel Island" style="width:75%;"><br>
@@ -252,7 +252,7 @@ Given an emission scenario and the temperature projections, we took the median o
 
 <div style="height: 0.5em;"></div>
 
-  The CNN-LSTM performed worse compared to the other three emulators and produced a different prediction:
+  The CNN-LSTM performed the worse compared to the other three emulators and produced a different prediction:
 
   <div style="text-align:center;">
     <img src="assets/figures/CNN_Sanibel_4520.png" alt="CNN Sanibel Island" style="width:75%;"><br>
@@ -273,9 +273,7 @@ We believe the CNN performed the worse because we kept the other greenhouse gase
 
 <div style="height: 0.5em;"></div>
 
-In our visualizations we took the median amount of sea level rise and determined how much land would be submerged. For this paper we used the cumulative amount of carbon dioxide in 2100 for SSP 245, which is about 4520 Gigatons of carbon dioxide.
-
-You can visualize interactive changes on our [application](https://zoeludena.github.io/SeeRiseWebsite/app/) or look at [figures](https://zoeludena.github.io/SeeRiseWebsite/figures/). Inside of our application you can also visualize other DEM files!
+You can visualize interactive changes on our [application](https://zoeludena.github.io/SeeRiseWebsite/app/) or look at [figures](https://zoeludena.github.io/SeeRiseWebsite/figures/). Inside of our application, you can also visualize other DEM files!
 
 ## Discussion
 
