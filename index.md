@@ -60,7 +60,7 @@ The advent of sea level rise can have devastating consequences on coastal areas 
 <div markdown="1" style="color: darkblue;">
   SSPs are scenarios used in climate research to describe different ways society might develop in the future. So... what affects greenhouse gas emissions and how vulnerable are we to climate change? They're narratives that combine social, economic, and technological trends without including the climate policies themselves — policies are added on top of SSPs in modeling.
 
-  They're commonly used with climate models to predict possible futures for things like: Global temperature rise, sea level rise, extreme weather, and economic and social impacts.
+  They're commonly used with climate models to predict possible futures for things like: global temperature rise, sea level rise, extreme weather, and economic and social impacts.
 
   The SSPs we talk about are:
 
@@ -73,28 +73,28 @@ The advent of sea level rise can have devastating consequences on coastal areas 
 
 <div style="height: 0.5em;"></div>
 
-Our first objective was to tune the hyperparameter for each emulator model. The emulators are fitted to historical data and each SSP, excluding SSP 245 which is used for validation. The emulators take in any combination of greenhouse gas emissions as input, but in order to assure ourselves that the outputs are sensible, we used the prescribed emissions for the SSP scenarios for training and validation. The emulators are used to predict surface air temperature based on difference emission inputs, and we later use the predicted temperature as the input to our sea level model.
+Our first objective was to tune the hyperparameter for each emulator model. The emulators are fitted to historical data and each SSP, excluding SSP 245 which is used for validation. The emulators take in any combination of greenhouse gas emissions as input, but in order to assure ourselves that the outputs are sensible, we used the prescribed emissions for the SSP scenarios for training and validation. The emulators are used to predict surface air temperature based on different emission inputs, and we later use the predicted temperature as the input to our sea level model.
 
-We used four different emulators based on what we learned in the ClimateBench and our previous research, [ResearchOnClimate](https://github.com/zoeludena/ResearchOnClimate/blob/main/Utilizing_Emulators_to_Explore_the_Climate_Model_Parameter_Space.pdf). We used a Pattern Scaling emulator, a Gaussian Process emulator, a Random Forest emulator, and a CNN-LTSM emulator.
+We used four different emulators based on what we learned in the ClimateBench and our previous research, [ResearchOnClimate](https://github.com/zoeludena/ResearchOnClimate/blob/main/Utilizing_Emulators_to_Explore_the_Climate_Model_Parameter_Space.pdf). We used a Pattern Scaling emulator, a Gaussian Process emulator, a Random Forest emulator, and a CNN-LSTM emulator.
 
 <details>
   <summary><span style="color: darkblue;">Learn about our emulators:</span></summary>
 
 <div markdown="1" style="color: darkblue;">
-1. We used a Pattern Scaling emulator. In the Rahmstorf paper they use linear regression trained on historical temperature and the difference between the predicted temperature and the average. This makes our pattern scaling emulator a fantastic one-to-one comparison.
+1. We used a Pattern Scaling emulator. In the Rahmstorf paper, they use linear regression trained on historical temperature and the difference between the predicted temperature and the baseline temperature. This makes our pattern scaling emulator a fantastic one-to-one comparison.
 2. We used a Gaussian Process emulator. Climate systems are governed by complex, smooth, and highly nonlinear relationships, making Gaussian Process (GP) emulators well-suited for predicting future climate scenarios. Building on our previous research, we chose to utilize the original GP model from ClimateBench as a foundation for our work. This approach leverages the flexibility and uncertainty quantification capabilities of GPs to improve climate predictions.
 3. We used a Random Forest emulator. While decision trees capture non-linear relationships well, they tend to overfit. Random Forest mitigates this by averaging predictions, reducing variance, and enhancing robustness. This makes it ideal for climate model emulation, where multiple target variables require separate models.
-4. We used a CNN-LTSM emulator. Neural networks excel at climate prediction due to their ability to model complex, non-linear relationships between atmospheric variables. Their deep architectures enable them to learn patterns from large-scale climate data, capturing intricate dependencies that traditional models may overlook. Their adaptability also allows them to generalize well across different climate scenarios, making them valuable for long-term forecasting and extreme weather prediction.
+4. We used a CNN-LSTM emulator. Neural networks excel at climate prediction due to their ability to model complex, non-linear relationships between atmospheric variables. Their deep architectures enable them to learn patterns from large-scale climate data, capturing intricate dependencies that traditional models may overlook. Their adaptability also allows them to generalize well across different climate scenarios, making them valuable for long-term forecasting and extreme weather prediction.
 </div>
 </details>
 
 <div style="height: 0.5em;"></div>
 
-Given a final CO2 concentration 2100, we interpolated the trajectory of atmospheric CO2 concentration by linearly increasing/decreasing the carbon dioxide amount from 2015 to 2100, assuming equal step every year, to predict the yearly surface air temperatures. Linear interpolation was chosen because it does not assume overly complicated models and is applicable given any valid 2100 CO2 concentration. The predicted series of temperatures was then used as an input for our sea level model.
+Given a final $\text{CO}_2$ concentration in 2100, we interpolated the trajectory of atmospheric $\text{CO}_2$ concentration by linearly increasing/decreasing the carbon dioxide amount from 2015 to 2100, assuming equal step every year, to predict the yearly surface air temperatures. Linear interpolation was chosen because it does not assume overly complicated models and is applicable given any valid 2100 $\text{CO}_2$ concentration. The predicted series of temperatures was then used as an input for our sea level model.
 
 ### Sea Level Rise Projection
 
-Using the model described by Rahmstorf (2007), we then produce a linear fit for change in sea level height, regressed on temperature anomaly (temperature difference from a baseline). We take our surface air temperature variable from each of the emulator output files and then use it to train the model on predicted sea level rise in the NOR-ESM2 model for each SSP scenario.
+Using the model described by Rahmstorf (2007), we produce a linear fit for change in sea level, regressed on temperature anomaly (temperature difference from a baseline). We take our surface air temperature variable from each of the emulator output files and then use it to train the model on predicted sea level rise in the NOR-ESM2 model for each SSP.
 
 Mathematically, the model equation is of the form:
 
@@ -102,7 +102,7 @@ $$
 \frac{dH}{dt} = a(T - T_0)
 $$
 
-where  $\frac{dH}{dt}$ is change in sea level height per year, \\(a\\) is a proportionality constant, and \\(T - T_0\\) is temperature relative to a baseline. Finally, to get the total sea level rise, we integrate the rate of sea level rise \\(\frac{dH}{dt}\\) to obtain the total height at the final year of recorded temperature:
+$\frac{dH}{dt}$ is change in sea level per year, \\(a\\) is a proportionality constant, and \\(T - T_0\\) is temperature relative to a baseline. Finally, to get the total sea level rise, we integrate the rate of sea level rise \\(\frac{dH}{dt}\\) to obtain the total height at the final year of recorded temperature:
 
 $$
 H(t) = \int_{t_0}^{t} \frac{dH}{dt} dt.
@@ -118,9 +118,9 @@ Finally, as a simple sanity check, we compare visually and quantitatively the pr
 
 ### Predicted Sea Level Rise
 
-For this paper, we compare our median predictions to the expected sea level rise under SSP 245. According to [NASA projections](https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool?type=global), the expected cumulative rise in sea level under SSP 245 between 2015 and 2100 will be 536.4 mm (± about 158 mm for the 66% confidence interval) ---about the width a large pizza box. 
+For this paper, we compare our median predictions to the expected sea level rise under SSP 245. According to [NASA projections](https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool?type=global), the expected cumulative rise in sea level under SSP 245 between 2015 and 2100 will be 536.4 mm (± about 158 mm for the 66% confidence interval)---about the width a large pizza box. 
 
-Since our sea level rise model requires a trajectory of TAS, thus a trajectory of CO2 concentrations for predicting TAS using the emulators, we took the 2100 CO2 concentration under SSP 245, around 4520 Gigatons, to linearly interpolate the trajectory from 2015 to 2100.
+Since our sea level rise model requires a trajectory of TAS, thus a trajectory of $\text{CO}_2$ concentrations for predicting TAS using the emulators, we took the 2100 $\text{CO}_2$ concentration under SSP 245, around 4520 Gigatons, to linearly interpolate the trajectory from 2015 to 2100.
 
 **Prediction Error Comparison**
 
@@ -135,7 +135,7 @@ Since our sea level rise model requires a trajectory of TAS, thus a trajectory o
 
 <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_emulator_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
 
-As we can see from the plot above, the Pattern Scaling, Gaussian Process, and Random Forest emulators perform about equally well when compared to the expected sea level rise. Looking at the table, they are under-predicting by about the size of a peanut 🥜 (20 mm) or an inch (25 mm). The CNN-LTSM model performs the worst. The measurement is off from the expected value by about a standard playing card's length 🃏 (120 mm).
+As we can see from the plot above, the Pattern Scaling, Gaussian Process, and Random Forest emulators perform about equally well when compared to the expected sea level rise. Looking at the table, they are under-predicting by about the size of a peanut 🥜 (20 mm) or an inch (25 mm). The CNN-LSTM model performs the worst. The measurement is off from the expected value by about a standard playing card's length 🃏 (120 mm).
 
 <details>
   <summary><span style="color: darkblue;">Click for Individual Emulator Plots VS Expected (SSP 245)</span></summary>
@@ -148,13 +148,13 @@ As we can see from the plot above, the Pattern Scaling, Gaussian Process, and Ra
 
   <details>
     <summary><span style="color: darkblue;">Click for Pattern Scaling:</span></summary>
-    <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_ps_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
+    <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_ps_preds.html" width="90%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
   </details>
 
   <div style="height: 0.5em;"></div>
 
   <details>
-    <summary><span style="color: darkblue;">Click for Gaussian Processing:</span></summary>
+    <summary><span style="color: darkblue;">Click for Gaussian Process:</span></summary>
     <iframe src="https://zoeludena.github.io/SeeRiseWebsite/assets/figures/2025_fixed_gp_preds.html" width="100%" style="aspect-ratio: 4 / 3; border: 0;"></iframe>
   </details>
 
@@ -252,7 +252,7 @@ Given an emission scenario and the temperature projections, we took the median o
 
 <div style="height: 0.5em;"></div>
 
-  The CNN-LTSM performed worse compared to the other three emulators and produced a different prediction:
+  The CNN-LSTM performed worse compared to the other three emulators and produced a different prediction:
 
   <div style="text-align:center;">
     <img src="assets/figures/CNN_Sanibel_4520.png" alt="CNN Sanibel Island" style="width:75%;"><br>
@@ -264,7 +264,7 @@ We believe the CNN performed the worse because we kept the other greenhouse gase
 <div style="height: 0.5em;"></div>
 
       
-  <summary><span style="color: darkblue;">Click for CNN-LTSM Boxplot</span></summary>
+  <summary><span style="color: darkblue;">Click for CNN-LSTM Boxplot</span></summary>
   <div style="text-align:center;">
       <img src="assets/figures/cnn_boxplot_4520.png" alt="CNN Boxplot" style="width:75%;">
   </div>
