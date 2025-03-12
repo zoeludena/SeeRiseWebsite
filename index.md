@@ -279,7 +279,7 @@ You can visualize interactive changes on our [application](https://zoeludena.git
 
 Similar to past work, our sea level rise model using Rahmstorf’s approach is prone to over-predicting when evaluated against the true expected projections. The model assumes a near-linear relationship between temperature and sea level rise rate, based on 20th-century observations. However, it is important to note that real-world ice sheet dynamics may not respond linearly to temperature changes, which can affect the true rate of sea level rise in the future. 
 
-On the other hand, our model suffers from under-prediction when only changing CO2 year to year and keeping the other greenhouse gases constant. Future work can be done on scaling all other greenhouse gases input appropriately, which would likely produce more accurate temperature values and sea level rise predictions.
+On the other hand, our model suffers from under-prediction when only changing $\text{CO}_2$ year to year and keeping the other greenhouse gases constant. Future work can be done on scaling all other greenhouse gases input appropriately, which would likely produce more accurate temperature values and sea level rise predictions.
 
 ## Conclusion
 
