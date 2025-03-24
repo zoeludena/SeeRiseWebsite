@@ -48,7 +48,7 @@ title: SeeRise 🌊
 
 > #### Best Project Award
 >
-> We received the most votes in the second session of the Halıcıoğlu Data Science Institute Capstone Showcase. This means we were given the Best Project Award!
+> We received the most votes in the second session of the Halıcıoğlu Data Science Institute [Capstone Showcase](https://dsc-capstone.org/showcase-25/). This means we were given the Best Project Award!
 > 
 
 ## Our Inspiration
